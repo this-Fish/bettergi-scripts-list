@@ -1,0 +1,12 @@
+[
+        {
+        "name": "specifyHours",
+        "type": "input-text",
+        "label": "指定等待直到下一個 HH：MM 的時（默认：4）"
+    },
+    {
+        "name": "specifyMinutes",
+        "type": "input-text",
+        "label": "指定等待直到下一個 HH：MM 的分鐘（默认：0）"
+    }
+]

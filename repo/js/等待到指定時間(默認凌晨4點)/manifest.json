@@ -1,0 +1,16 @@
+{
+    "manifest_version": 1,
+    "name": "等到指定時間(默認凌晨4點)", 
+    "version": "1.0",
+    "bgi_version": "0.42.0", 
+    "description": "等到指定時間(默認凌晨4點),適用於等到第二天4點執行其他任務", 
+    "authors": [
+      {
+        "name": "蜜柑魚",
+        "link": "https://github.com/this-Fish"
+      }
+    ],
+    "settings_ui": "settings.json",
+    "main": "main.js"
+  }
+  
