@@ -34,7 +34,7 @@
       "y": -3841.62,
       "action": "combat_script",
       "move_mode": "fly",
-      "action_params": "keypress(VK_SPACE),wait(1.5),keypress(VK_SPACE),wait(0.2)",
+      "action_params": "j,wait(1.5),j,wait(0.2)",
       "type": "target"
     },
     {
