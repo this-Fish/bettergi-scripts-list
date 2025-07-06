@@ -219,6 +219,7 @@
       "action_params": ""
     },
     {
+      "id": 23,
       "x": -1090.54,
       "y": -3910.98,
       "type": "path",
@@ -227,18 +228,18 @@
       "action_params": ""
     },
     {
-      "id": 23,
+      "id": 24,
       "x": -1089.76,
-      "y": -3912,
+      "y": -3912.0,
       "type": "target",
       "move_mode": "walk",
       "action": "mining",
       "action_params": ""
     },
     {
-      "id": 24,
+      "id": 25,
       "x": -1089.76,
-      "y": -3912,
+      "y": -3912.0,
       "type": "path",
       "move_mode": "walk",
       "action": "combat_script",
