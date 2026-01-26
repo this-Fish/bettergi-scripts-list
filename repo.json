@@ -1,5 +1,5 @@
 {
-  "time": "20260124210059",
+  "time": "20260126213802",
   "url": "https://github.com/babalae/bettergi-scripts-list/archive/refs/heads/main.zip",
   "file": "repo.json",
   "indexes": [
@@ -8956,84 +8956,288 @@
                   "type": "directory",
                   "children": [
                     {
-                      "name": "01-冬凌草-厄布拉神柱-26个.json",
-                      "type": "file",
-                      "version": "1.0",
-                      "author": "Tool_tingsu",
-                      "authors": [
+                      "name": "冬凌草@Tool_tingsu",
+                      "type": "directory",
+                      "children": [
                         {
-                          "name": "Tool_tingsu",
-                          "link": "https://github.com/Tooltingsu"
+                          "name": "01-冬凌草-厄布拉神柱-26个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "Tool_tingsu",
+                          "authors": [
+                            {
+                              "name": "Tool_tingsu",
+                              "link": "https://github.com/Tooltingsu"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.54.3",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "02-冬凌草-凯雷丝之翼-19个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "Tool_tingsu",
+                          "authors": [
+                            {
+                              "name": "Tool_tingsu",
+                              "link": "https://github.com/Tooltingsu"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.54.3",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "03-冬凌草-安瓦蒂尼尔湖-10个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "Tool_tingsu",
+                          "authors": [
+                            {
+                              "name": "Tool_tingsu",
+                              "link": "https://github.com/Tooltingsu"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.54.3",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "04-冬凌草-特辖地研究所-14个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "Tool_tingsu",
+                          "authors": [
+                            {
+                              "name": "Tool_tingsu",
+                              "link": "https://github.com/Tooltingsu"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.54.3",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
                         }
-                      ],
-                      "description": "",
-                      "tags": [
-                        "bgi≥0.54.3",
-                        "地方特产",
-                        "挪德卡莱",
-                        "冬凌草"
-                      ],
-                      "lastUpdated": "2026-01-16 20:28:36"
+                      ]
                     },
                     {
-                      "name": "02-冬凌草-凯雷丝之翼-19个.json",
-                      "type": "file",
-                      "version": "1.0",
-                      "author": "Tool_tingsu",
-                      "authors": [
+                      "name": "冬凌草@白白喵",
+                      "type": "directory",
+                      "children": [
                         {
-                          "name": "Tool_tingsu",
-                          "link": "https://github.com/Tooltingsu"
-                        }
-                      ],
-                      "description": "",
-                      "tags": [
-                        "bgi≥0.54.3",
-                        "地方特产",
-                        "挪德卡莱",
-                        "冬凌草"
-                      ],
-                      "lastUpdated": "2026-01-15 18:57:39"
-                    },
-                    {
-                      "name": "03-冬凌草-安瓦蒂尼尔湖-10个.json",
-                      "type": "file",
-                      "version": "1.0",
-                      "author": "Tool_tingsu",
-                      "authors": [
+                          "name": "01-冬凌草-厄布拉神柱右-18个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
                         {
-                          "name": "Tool_tingsu",
-                          "link": "https://github.com/Tooltingsu"
-                        }
-                      ],
-                      "description": "",
-                      "tags": [
-                        "bgi≥0.54.3",
-                        "地方特产",
-                        "挪德卡莱",
-                        "冬凌草"
-                      ],
-                      "lastUpdated": "2026-01-15 18:57:39"
-                    },
-                    {
-                      "name": "04-冬凌草-特辖地研究所-14个.json",
-                      "type": "file",
-                      "version": "1.0",
-                      "author": "Tool_tingsu",
-                      "authors": [
+                          "name": "02-冬凌草-厄布拉神柱中-8个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
                         {
-                          "name": "Tool_tingsu",
-                          "link": "https://github.com/Tooltingsu"
+                          "name": "03-冬凌草-厄布拉神柱左-7个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "04-冬凌草-凯雷丝之翼-12个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "05-冬凌草-安瓦蒂尼尔湖-10个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "06-冬凌草-望崖营壁-8个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "07-冬凌草-特辖地研究所-4个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "白白喵",
+                          "authors": [
+                            {
+                              "name": "白白喵",
+                              "link": "https://github.com/taotao568685"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
+                        },
+                        {
+                          "name": "08-冬凌草-苦壑崖-2个.json",
+                          "type": "file",
+                          "version": "1.0",
+                          "author": "Tool_tingsu",
+                          "authors": [
+                            {
+                              "name": "Tool_tingsu",
+                              "link": "https://github.com/Tooltingsu"
+                            },
+                            {
+                              "name": "蜜柑魚",
+                              "link": "https://github.com/this-Fish"
+                            }
+                          ],
+                          "description": "",
+                          "tags": [
+                            "bgi≥0.55.0",
+                            "地方特产",
+                            "挪德卡莱",
+                            "冬凌草"
+                          ],
+                          "lastUpdated": "2026-01-24 23:32:14"
                         }
-                      ],
-                      "description": "",
-                      "tags": [
-                        "bgi≥0.54.3",
-                        "地方特产",
-                        "挪德卡莱",
-                        "冬凌草"
-                      ],
-                      "lastUpdated": "2026-01-16 20:28:36"
+                      ]
                     }
                   ]
                 },
@@ -45779,14 +45983,14 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.47.0",
+                        "bgi≥0.52.0",
                         "矿物",
                         "紫晶块",
                         "双手剑",
                         "挖矿",
                         "转圈拾取"
                       ],
-                      "lastUpdated": "2025-08-11 12:56:10"
+                      "lastUpdated": "2026-01-25 17:45:27"
                     },
                     {
                       "name": "B03-紫晶块-稻妻-神無冢-踏鞴砂-大炮2-3个.json",
@@ -71504,6 +71708,63 @@
                         "纳西妲"
                       ],
                       "lastUpdated": "2025-08-10 14:42:24"
+                    },
+                    {
+                      "name": "06-澄晶实-远古圣山-分流识海-6个.json",
+                      "type": "file",
+                      "version": "1.0",
+                      "author": "蜜柑魚",
+                      "authors": [
+                        {
+                          "name": "蜜柑魚",
+                          "link": "https://github.com/this-Fish"
+                        }
+                      ],
+                      "description": "",
+                      "tags": [
+                        "bgi≥0.55.0",
+                        "食材与炼金",
+                        "澄晶实"
+                      ],
+                      "lastUpdated": "2026-01-26 17:33:06"
+                    },
+                    {
+                      "name": "07-澄晶实-远古圣山-加向逆心西-2个.json",
+                      "type": "file",
+                      "version": "1.0",
+                      "author": "蜜柑魚",
+                      "authors": [
+                        {
+                          "name": "蜜柑魚",
+                          "link": "https://github.com/this-Fish"
+                        }
+                      ],
+                      "description": "",
+                      "tags": [
+                        "bgi≥0.55.0",
+                        "食材与炼金",
+                        "澄晶实"
+                      ],
+                      "lastUpdated": "2026-01-26 17:33:06"
+                    },
+                    {
+                      "name": "08-澄晶实-远古圣山-加向逆心東-4个.json",
+                      "type": "file",
+                      "version": "1.0",
+                      "author": "蜜柑魚",
+                      "authors": [
+                        {
+                          "name": "蜜柑魚",
+                          "link": "https://github.com/this-Fish"
+                        }
+                      ],
+                      "description": "",
+                      "tags": [
+                        "bgi≥0.55.0",
+                        "食材与炼金",
+                        "澄晶实"
+                      ],
+                      "lastUpdated": "2026-01-26 17:33:06"
                     }
                   ]
                 }
@@ -93049,7 +93310,7 @@
         {
           "name": "AAA-Artifacts-Bulk-Supply",
           "type": "directory",
-          "version": "1.7.2",
+          "version": "2.0.2",
           "author": "mno",
           "authors": [
             {
@@ -93065,7 +93326,7 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2026-01-24 21:00:24"
+          "lastUpdated": "2026-01-26 21:37:34"
         },
         {
           "name": "ABGIHoui",
@@ -93091,7 +93352,7 @@
         {
           "name": "AEscoffier_chef",
           "type": "directory",
-          "version": "2.0",
+          "version": "2.1",
           "author": "提瓦特钓鱼玳师",
           "authors": [
             {
@@ -93108,7 +93369,7 @@
             "料理制作",
             "特殊料理"
           ],
-          "lastUpdated": "2026-01-22 09:45:19"
+          "lastUpdated": "2026-01-26 16:32:02"
         },
         {
           "name": "AIPC珍贵宝箱无限刷",
@@ -93446,7 +93707,7 @@
         {
           "name": "AutoFishingTeyvat",
           "type": "directory",
-          "version": "2.4.1",
+          "version": "2.4.2",
           "author": "提瓦特钓鱼玳师",
           "authors": [
             {
@@ -93462,12 +93723,12 @@
           "tags": [
             "bgi≥0.55.0"
           ],
-          "lastUpdated": "2026-01-20 17:12:30"
+          "lastUpdated": "2026-01-26 20:50:08"
         },
         {
           "name": "AutoFishingTeyvat-Bait",
           "type": "directory",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "author": "提瓦特钓鱼玳师",
           "authors": [
             {
@@ -93479,7 +93740,7 @@
           "tags": [
             "bgi≥0.55.0"
           ],
-          "lastUpdated": "2026-01-19 17:46:55"
+          "lastUpdated": "2026-01-26 20:50:08"
         },
         {
           "name": "AutoFontaineLeyLine",
@@ -93538,7 +93799,7 @@
         {
           "name": "AutoFriendshipFight",
           "type": "directory",
-          "version": "1.4.3",
+          "version": "1.4.4",
           "author": "秋云",
           "authors": [
             {
@@ -93556,7 +93817,7 @@
             "鳄鱼",
             "兽肉"
           ],
-          "lastUpdated": "2025-08-23 19:21:03"
+          "lastUpdated": "2026-01-26 16:30:05"
         },
         {
           "name": "AutoFriendshipFowl",
@@ -93583,7 +93844,7 @@
         {
           "name": "AutoHoeingOneDragon",
           "type": "directory",
-          "version": "2.0.2",
+          "version": "2.0.5",
           "author": "mno",
           "authors": [
             {
@@ -93597,7 +93858,7 @@
           ],
           "description": "锄地一条龙~|~一站式解决自动化锄地，支持只拾取狗粮，请仔细阅读README.md后使用",
           "tags": [],
-          "lastUpdated": "2026-01-24 14:53:57"
+          "lastUpdated": "2026-01-26 00:35:50"
         },
         {
           "name": "AutoInstructorLock",
@@ -94179,7 +94440,7 @@
         {
           "name": "MiliastraExperiencePlayback",
           "type": "directory",
-          "version": "0.1.12",
+          "version": "0.1.13",
           "author": "breadgrocery",
           "authors": [
             {
@@ -94196,7 +94457,7 @@
             "bgi≥0.54.0",
             "千星奇域"
           ],
-          "lastUpdated": "2026-01-23 15:24:02"
+          "lastUpdated": "2026-01-26 16:33:13"
         },
         {
           "name": "NaiLong",
@@ -94861,9 +95122,10 @@
           "description": "尘歌壶一条龙~|~自动放置并进入尘歌壶，寻找阿圆，领取洞天宝钱和好感，做饭，锻造(需要配置进入尘歌壶以后的路线)，支持自动购买指定物品。推荐洞天摹数81708444664",
           "tags": [
             "尘歌壶",
-            "模拟点击"
+            "模拟点击",
+            "周计划"
           ],
-          "lastUpdated": "2025-12-16 08:37:17"
+          "lastUpdated": "2026-01-25 17:45:27"
         },
         {
           "name": "尘歌壶洞天百宝购买",
@@ -95295,7 +95557,7 @@
         {
           "name": "万能战斗策略（萌新推荐）.txt",
           "type": "file",
-          "version": "v2.0",
+          "version": "v2.1",
           "author": "火山",
           "authors": [
             {
@@ -95344,9 +95606,10 @@
             "砂糖",
             "琴",
             "温迪",
-            "娜维娅"
+            "娜维娅",
+            "菲林斯"
           ],
-          "lastUpdated": "2026-01-19 01:24:17"
+          "lastUpdated": "2026-01-25 13:19:29"
         },
         {
           "name": "伊芙爱万玛.txt",
