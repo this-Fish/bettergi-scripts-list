@@ -1,5 +1,5 @@
 {
-  "time": "20260216220044",
+  "time": "20260223095834",
   "url": "https://github.com/babalae/bettergi-scripts-list/archive/refs/heads/main.zip",
   "file": "repo.json",
   "indexes": [
@@ -71622,12 +71622,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.48.0",
+                        "bgi≥0.52.0",
                         "食材与炼金",
                         "澄晶实",
                         "纳西妲"
                       ],
-                      "lastUpdated": "2025-08-12 20:31:02"
+                      "lastUpdated": "2026-02-17 07:54:01"
                     },
                     {
                       "name": "02-澄晶实-祖遗庙宇地下1-4个.json",
@@ -71642,12 +71642,13 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.48.0",
+                        "bgi≥0.52.0",
                         "食材与炼金",
                         "澄晶实",
-                        "纳西妲"
+                        "纳西妲",
+                        "有攀爬"
                       ],
-                      "lastUpdated": "2025-08-10 14:42:24"
+                      "lastUpdated": "2026-02-17 07:54:01"
                     },
                     {
                       "name": "03-澄晶实-祖遗庙宇地下2-8个.json",
@@ -71662,12 +71663,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.48.0",
+                        "bgi≥0.52.0",
                         "食材与炼金",
                         "澄晶实",
                         "纳西妲"
                       ],
-                      "lastUpdated": "2025-08-10 14:42:24"
+                      "lastUpdated": "2026-02-17 07:54:01"
                     },
                     {
                       "name": "04-澄晶实-溶水域地下1-12个.json",
@@ -71682,12 +71683,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.48.0",
+                        "bgi≥0.52.0",
                         "食材与炼金",
                         "澄晶实",
                         "纳西妲"
                       ],
-                      "lastUpdated": "2025-08-10 14:42:24"
+                      "lastUpdated": "2026-02-17 07:54:01"
                     },
                     {
                       "name": "05-澄晶实-溶水域地下2-14个.json",
@@ -71702,12 +71703,12 @@
                       ],
                       "description": "",
                       "tags": [
-                        "bgi≥0.48.0",
+                        "bgi≥0.52.0",
                         "食材与炼金",
                         "澄晶实",
                         "纳西妲"
                       ],
-                      "lastUpdated": "2025-08-10 14:42:24"
+                      "lastUpdated": "2026-02-17 07:54:01"
                     },
                     {
                       "name": "06-澄晶实-远古圣山-分流识海-6个.json",
@@ -75150,7 +75151,7 @@
                   "lastUpdated": "2026-02-02 07:55:19"
                 },
                 {
-                  "name": "03-神秘的肉-折胫谷-12.json",
+                  "name": "03-神秘的肉-折胫谷-12个.json",
                   "type": "file",
                   "version": "1.0",
                   "author": "Sabersunny",
@@ -75165,7 +75166,7 @@
                     "食材与炼金",
                     "神秘的肉"
                   ],
-                  "lastUpdated": "2026-02-02 07:55:19"
+                  "lastUpdated": "2026-02-21 20:55:16"
                 },
                 {
                   "name": "04-神秘的肉-神之棋盘-12个.json",
@@ -93566,7 +93567,7 @@
         {
           "name": "AAA-Artifacts-Bulk-Supply",
           "type": "directory",
-          "version": "2.1.1",
+          "version": "2.1.5",
           "author": "mno",
           "authors": [
             {
@@ -93582,7 +93583,7 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2026-02-14 18:16:25"
+          "lastUpdated": "2026-02-22 18:35:00"
         },
         {
           "name": "ABGIHoui",
@@ -93802,7 +93803,7 @@
         {
           "name": "ArtifactsGroupPurchasing",
           "type": "directory",
-          "version": "1.13.5",
+          "version": "1.13.8",
           "author": "mno",
           "authors": [
             {
@@ -93818,7 +93819,7 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2026-02-14 18:16:25"
+          "lastUpdated": "2026-02-22 18:35:00"
         },
         {
           "name": "AutoArtifactLockingSettings",
@@ -94014,7 +94015,7 @@
           "tags": [
             "狗粮"
           ],
-          "lastUpdated": "2026-01-19 01:13:57"
+          "lastUpdated": "2026-02-22 21:06:54"
         },
         {
           "name": "AutoFishingTeyvat",
@@ -94170,7 +94171,7 @@
           ],
           "description": "锄地一条龙~|~一站式解决自动化锄地，支持只拾取狗粮，请仔细阅读README.md后使用",
           "tags": [],
-          "lastUpdated": "2026-02-15 10:52:57"
+          "lastUpdated": "2026-02-22 21:06:54"
         },
         {
           "name": "AutoInstructorLock",
@@ -94268,7 +94269,7 @@
           ],
           "description": "点击消除新~|~点击消除背包中的新",
           "tags": [],
-          "lastUpdated": "2026-01-27 08:30:46"
+          "lastUpdated": "2026-02-22 21:06:54"
         },
         {
           "name": "AutoNobushi",
@@ -94394,6 +94395,23 @@
             "幽境危战"
           ],
           "lastUpdated": "2025-09-18 12:04:00"
+        },
+        {
+          "name": "AutoSwitchGraphicsSettings",
+          "type": "directory",
+          "version": "1.2",
+          "author": "OvOAuto",
+          "authors": [
+            {
+              "name": "OvOAuto",
+              "link": "https://github.com/OvOAuto"
+            }
+          ],
+          "description": "自动修改画质与音量~|~自动调整画质和音量，用于便捷切换锄地省电画质和游戏体验画质",
+          "tags": [
+            "bgi≥0.57.0"
+          ],
+          "lastUpdated": "2026-02-22 21:07:54"
         },
         {
           "name": "AutoSwitchRoles",
@@ -95171,7 +95189,7 @@
         {
           "name": "WeeklyThousandStarRealm",
           "type": "directory",
-          "version": "2.7",
+          "version": "3.1",
           "author": "躁动的氨气",
           "authors": [
             {
@@ -95179,16 +95197,16 @@
               "link": "https://github.com/zaodonganqi"
             }
           ],
-          "description": "千星奇域每周成就经验刷取~|~无需自己找图，可用于利用成就高经验值刷取经验，默认配置每周刷满需要24分钟",
+          "description": "千星奇域每周成就经验刷取~|~无需自己找图，可用于利用成就高经验值刷取经验，默认配置每周刷满需要22分钟，秒刷图仅需9分钟",
           "tags": [
-            "bgi≥0.54.0"
+            "bgi≥0.57.0"
           ],
-          "lastUpdated": "2026-02-06 16:25:41"
+          "lastUpdated": "2026-02-21 22:08:20"
         },
         {
           "name": "YNF-AutoEat",
           "type": "directory",
-          "version": "1.6.2",
+          "version": "1.6.3",
           "author": "江紫烟owo",
           "authors": [
             {
@@ -95205,7 +95223,7 @@
             "伊涅芙",
             "调味品"
           ],
-          "lastUpdated": "2026-01-31 16:01:34"
+          "lastUpdated": "2026-02-21 20:55:16"
         },
         {
           "name": "YuanQin",
@@ -95451,7 +95469,7 @@
         {
           "name": "只要大瓶",
           "type": "directory",
-          "version": "1.4",
+          "version": "1.5",
           "author": "mno",
           "authors": [
             {
@@ -95461,7 +95479,7 @@
           ],
           "description": "只要大瓶~|~分解狗粮尽量只要大瓶",
           "tags": [],
-          "lastUpdated": "2026-01-19 01:13:57"
+          "lastUpdated": "2026-02-19 00:23:34"
         },
         {
           "name": "尘歌壶一条龙",
@@ -95690,7 +95708,7 @@
         {
           "name": "自动购买每天&3天&每周刷新商品",
           "type": "directory",
-          "version": "3.2.0",
+          "version": "3.2.4",
           "author": "蜜柑魚",
           "authors": [
             {
@@ -95703,7 +95721,7 @@
             "购买商品",
             "模拟点击"
           ],
-          "lastUpdated": "2026-02-16 21:58:21"
+          "lastUpdated": "2026-02-22 20:31:38"
         },
         {
           "name": "自动领取成就奖励",
@@ -95811,7 +95829,7 @@
         {
           "name": "采集cd管理",
           "type": "directory",
-          "version": "2.10.1",
+          "version": "2.10.4",
           "author": "mno",
           "authors": [
             {
@@ -95823,7 +95841,7 @@
           "tags": [
             "bgi≥0.44.8"
           ],
-          "lastUpdated": "2026-02-12 23:33:28"
+          "lastUpdated": "2026-02-18 22:33:37"
         },
         {
           "name": "铁匠铺",
