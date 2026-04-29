@@ -1,5 +1,5 @@
 {
-  "time": "20260428123146",
+  "time": "20260429224935",
   "url": "https://github.com/babalae/bettergi-scripts-list/archive/refs/heads/main.zip",
   "file": "repo.json",
   "indexes": [
@@ -98241,6 +98241,23 @@
             "bgi≥0.45.0"
           ],
           "lastUpdated": "2025-08-07 22:44:47"
+        },
+        {
+          "name": "LinneaMining",
+          "type": "directory",
+          "version": "0.1",
+          "author": "zaodonganqi",
+          "authors": [
+            {
+              "name": "zaodonganqi",
+              "link": "https://github.com/zaodonganqi"
+            }
+          ],
+          "description": "莉奈娅挖矿一条龙~|~不分矿种，稳定刷新即挖",
+          "tags": [
+            "bgi≥0.61.0"
+          ],
+          "lastUpdated": "2026-04-29 22:49:04"
         },
         {
           "name": "MiliastraExperiencePlayback",
