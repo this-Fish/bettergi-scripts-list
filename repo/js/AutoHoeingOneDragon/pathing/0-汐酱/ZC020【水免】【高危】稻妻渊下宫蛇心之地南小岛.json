@@ -1,23 +1,22 @@
 {
   "info": {
-    "name": "ZC020【水免】【高危】稻妻渊下宫蛇心之地南小岛",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时51秒，包含以下怪物：1只深渊使徒·激流、1只遗迹守卫。",
-    "hash_res": "09153610",
-    "map_name": "Enkanomiya",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
     ],
-    "tags": [],
-    "last_modified_time": 1754760686670,
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时136秒，包含以下怪物：1只深渊使徒·激流、1只遗迹守卫。",
     "enable_monster_loot_split": false,
-    "map_match_method": ""
+    "last_modified_time": 1781155194783,
+    "map_match_method": "",
+    "map_name": "Enkanomiya",
+    "name": "ZC020【水免】【高危】稻妻渊下宫蛇心之地南小岛",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -26,23 +25,23 @@
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 480.3899999999999,
+      "x": 480.39,
       "y": -537.75
     },
     {
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 467.24,
-      "y": -534.7200000000003
+      "y": -534.72
     },
     {
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 440.72,
       "y": -511
@@ -54,7 +53,7 @@
       "move_mode": "dash",
       "type": "path",
       "x": 424.25,
-      "y": -509.12512173193636
+      "y": -509.1251
     },
     {
       "action": "fight",
@@ -63,7 +62,7 @@
       "move_mode": "dash",
       "type": "path",
       "x": 424.125,
-      "y": -509.062632798476
+      "y": -509.0626
     },
     {
       "action": "stop_flying",
@@ -71,17 +70,35 @@
       "id": 6,
       "move_mode": "fly",
       "type": "path",
-      "x": 377.548583984375,
-      "y": -476.459228515625
+      "x": 377.5486,
+      "y": -476.4592
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 7,
-      "move_mode": "walk",
+      "move_mode": "run",
       "type": "path",
-      "x": 374.0711669921875,
-      "y": -475.2119140625
+      "x": 374.0712,
+      "y": -475.2119
+    },
+    {
+      "action": "combat_script",
+      "action_params": "枫原万叶 wait(0.1),e(wait,hold),attack,wait(1.5)",
+      "id": 8,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 374.0712,
+      "y": -475.2119
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 9,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 374.0712,
+      "y": -475.2119
     }
   ]
 }

@@ -1,18 +1,22 @@
-{
+﻿{
   "info": {
-    "name": "D002须弥二净甸",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时108秒，包含以下怪物：1只遗迹龙兽·地巡、2只遗迹龙兽·空巡、2只伸缩火蕈兽、2只旋转冰蕈兽。",
-    "hash_res": "50839521",
-    "bgi_version": "0.42.3",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时108秒，包含以下怪物：1只遗迹龙兽·地巡、2只遗迹龙兽·空巡、2只伸缩火蕈兽、2只旋转冰蕈兽。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1774705184269,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "D002须弥二净甸",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -28,7 +32,7 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 3250.81,
       "y": -521.88
@@ -37,15 +41,24 @@
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 3241.1,
+      "y": -526.36
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 4,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3241.1,
       "y": -526.36
     },
     {
       "action": "",
       "action_params": "",
-      "id": 4,
+      "id": 5,
       "move_mode": "walk",
       "type": "teleport",
       "x": 3067.79,
@@ -54,8 +67,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 5,
-      "move_mode": "dash",
+      "id": 6,
+      "move_mode": "run",
       "type": "path",
       "x": 3051.05,
       "y": -642.73
@@ -63,16 +76,25 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 6,
-      "move_mode": "dash",
+      "id": 7,
+      "move_mode": "run",
       "type": "path",
+      "x": 3034.78,
+      "y": -636.95
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 8,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3034.78,
       "y": -636.95
     },
     {
       "action": "",
       "action_params": "",
-      "id": 7,
+      "id": 9,
       "move_mode": "walk",
       "type": "teleport",
       "x": 3204.71,
@@ -81,8 +103,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 10,
+      "move_mode": "run",
       "type": "path",
       "x": 3202.94,
       "y": -903.71
@@ -90,7 +112,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 9,
+      "id": 11,
       "move_mode": "fly",
       "type": "path",
       "x": 3203.86,
@@ -99,7 +121,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 10,
+      "id": 12,
       "move_mode": "dash",
       "type": "path",
       "x": 3198.98,
@@ -108,7 +130,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 11,
+      "id": 13,
       "move_mode": "fly",
       "type": "path",
       "x": 3194.23,
@@ -117,7 +139,7 @@
     {
       "action": "combat_script",
       "action_params": "keypress(f)",
-      "id": 12,
+      "id": 14,
       "move_mode": "dash",
       "type": "path",
       "x": 3195.82,
@@ -126,9 +148,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 13,
-      "move_mode": "dash",
+      "id": 15,
+      "move_mode": "run",
       "type": "path",
+      "x": 3203.36,
+      "y": -808.95
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 16,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3203.36,
       "y": -808.95
     }

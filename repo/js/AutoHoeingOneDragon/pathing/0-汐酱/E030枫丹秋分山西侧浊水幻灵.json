@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时171秒，包含以下怪物：1只大型水史莱姆、2只浊水粉碎幻灵、1只浊水喷吐幻灵、1只火斧丘丘暴徒、1只愚人众先遣队·火统游击兵、1只愚人众先遣队·风拳前锋军、1只愚人众·风役人、1只愚人众·霜役人。",
     "enable_monster_loot_split": false,
     "hash_res": "96899329",
-    "last_modified_time": 1783748403412,
+    "last_modified_time": 1774338729907,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "E030枫丹秋分山西侧浊水幻灵",
@@ -32,7 +32,7 @@
     {
       "action": "combat_script",
       "action_params": "click,wait(0.5),click",
-      "id": 2,
+      "id": 4,
       "move_mode": "dash",
       "type": "path",
       "x": 4040.03,
@@ -41,8 +41,8 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 3,
-      "move_mode": "dash",
+      "id": 5,
+      "move_mode": "run",
       "type": "path",
       "x": 4050.87,
       "y": 2561
@@ -50,7 +50,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 4,
+      "id": 6,
       "move_mode": "dash",
       "type": "path",
       "x": 4054.57,
@@ -59,7 +59,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 5,
+      "id": 7,
       "move_mode": "fly",
       "type": "path",
       "x": 4043.52,
@@ -68,16 +68,25 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 6,
+      "id": 8,
       "move_mode": "dash",
       "type": "path",
       "x": 4032.33,
       "y": 2623.14
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 4032.33,
+      "y": 2623.14
+    },
+    {
       "action": "",
       "action_params": "",
-      "id": 7,
+      "id": 10,
       "move_mode": "walk",
       "type": "teleport",
       "x": 4146.73,
@@ -86,8 +95,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 11,
+      "move_mode": "run",
       "type": "path",
       "x": 4214.13,
       "y": 2615.33
@@ -95,8 +104,8 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 9,
-      "move_mode": "dash",
+      "id": 12,
+      "move_mode": "run",
       "type": "path",
       "x": 4250.57,
       "y": 2615.74
@@ -104,7 +113,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 10,
+      "id": 13,
       "move_mode": "climb",
       "type": "path",
       "x": 4260.66,
@@ -113,7 +122,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 11,
+      "id": 15,
       "move_mode": "dash",
       "type": "path",
       "x": 4395.71,
@@ -122,7 +131,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 12,
+      "id": 16,
       "move_mode": "dash",
       "type": "path",
       "x": 4404.64,
@@ -131,9 +140,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 13,
-      "move_mode": "dash",
+      "id": 17,
+      "move_mode": "run",
       "type": "path",
+      "x": 4418.21,
+      "y": 2455.51
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 18,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 4418.21,
       "y": 2455.51
     }

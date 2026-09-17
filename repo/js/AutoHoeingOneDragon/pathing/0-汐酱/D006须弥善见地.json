@@ -9,9 +9,8 @@
     ],
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时59秒，包含以下怪物：1只丘丘岩盔王。",
-    "hash_res": "98728605",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1763193264865,
+    "last_modified_time": 1763389543092,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "D006须弥善见地",
@@ -62,8 +61,8 @@
       "id": 5,
       "move_mode": "fly",
       "type": "path",
-      "x": 3815.7763671875,
-      "y": -1053.06396484375
+      "x": 3818.6875,
+      "y": -1053.7819361254597
     },
     {
       "action": "fight",
@@ -71,8 +70,17 @@
       "id": 6,
       "move_mode": "walk",
       "type": "path",
-      "x": 3815.7763671875,
-      "y": -1053.06396484375
+      "x": 3815.3199999999997,
+      "y": -1056.58
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 7,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 3815.3199999999997,
+      "y": -1056.58
     }
   ]
 }

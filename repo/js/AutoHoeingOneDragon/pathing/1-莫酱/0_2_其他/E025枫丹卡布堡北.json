@@ -1,0 +1,172 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时187秒，包含以下怪物：1只浊水粉碎幻灵、2只重甲蟹·绿、4只泡泡雄海马。",
+    "enable_monster_loot_split": false,
+    "hash_res": "54672566",
+    "last_modified_time": 1784718251856,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "E025枫丹卡布堡北",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 3252.22,
+      "y": 2963.66
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3192.3887,
+      "y": 2978.5142
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3192.3887,
+      "y": 2978.5142
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3171.6982,
+      "y": 2979.3186
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3118.1035,
+      "y": 2917.0488
+    },
+    {
+      "action": "combat_script",
+      "action_params": "伊涅芙 e(wait);芙宁娜 e(wait); ;",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3118.1035,
+      "y": 2917.0488
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.8)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3118.2129,
+      "y": 2955.804
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3093.2314,
+      "y": 2949.9497
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3093.2314,
+      "y": 2949.9497
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;wait(6)",
+      "id": 10,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3055.9717,
+      "y": 2988.3589
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 11,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3023.0371,
+      "y": 2976.3271
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 12,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 2989.8574,
+      "y": 2971.6641
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 13,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 2989.8574,
+      "y": 2971.6641
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);伊涅芙 e;芙宁娜 e;爱可菲 e",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3006.4863,
+      "y": 2940.1311
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 15,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 3021.7744,
+      "y": 2897.3413
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 16,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 3021.7744,
+      "y": 2897.3413
+    }
+  ]
+}

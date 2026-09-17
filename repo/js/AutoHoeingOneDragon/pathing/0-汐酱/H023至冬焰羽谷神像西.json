@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时151.5秒，包含以下怪物：10只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时154.5秒，包含以下怪物：10只兽怪敲打者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1788025352791,
+    "last_modified_time": 1789664175509,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "H023至冬焰羽谷神像西",
@@ -51,13 +51,22 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
+      "x": 7998.0918,
+      "y": 9383.0059
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "fly",
+      "type": "path",
       "x": 8006.7607,
       "y": 9389.5547
     },
     {
       "action": "",
       "action_params": "",
-      "id": 5,
+      "id": 6,
       "move_mode": "dash",
       "type": "path",
       "x": 8023.7305,
@@ -66,16 +75,16 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 6,
+      "id": 7,
       "move_mode": "dash",
       "type": "path",
-      "x": 8023.1338,
-      "y": 9381.5313
+      "x": 8019.5176,
+      "y": 9377.1729
     },
     {
       "action": "",
       "action_params": "",
-      "id": 7,
+      "id": 8,
       "move_mode": "dash",
       "type": "path",
       "x": 8023.752,
@@ -84,7 +93,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 8,
+      "id": 9,
       "move_mode": "dash",
       "type": "path",
       "x": 8068.9346,
@@ -93,7 +102,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 9,
+      "id": 10,
       "move_mode": "dash",
       "type": "path",
       "x": 8047.5566,
@@ -102,7 +111,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 10,
+      "id": 11,
       "move_mode": "dash",
       "type": "path",
       "x": 8058.1592,
@@ -111,18 +120,36 @@
     {
       "action": "",
       "action_params": "",
-      "id": 11,
-      "move_mode": "dash",
+      "id": 12,
+      "move_mode": "jump",
       "type": "path",
       "x": 8059.5313,
       "y": 9361.4541
     },
     {
-      "action": "fight",
+      "action": "",
       "action_params": "",
-      "id": 12,
+      "id": 13,
       "move_mode": "dash",
       "type": "path",
+      "x": 8063.916,
+      "y": 9355.8145
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 8097.3057,
+      "y": 9336.1797
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 15,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 8097.3057,
       "y": 9336.1797
     }

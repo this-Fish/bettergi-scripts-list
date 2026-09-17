@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -22,7 +22,6 @@
   "positions": [
     {
       "action": "",
-      "action_params": "",
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
@@ -31,26 +30,33 @@
     },
     {
       "action": "",
-      "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2035.76,
       "y": 1525.62
     },
     {
       "action": "fight",
-      "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2034.72,
       "y": 1544.38
     },
     {
+      "action": "combat_script",
+      "id": 4,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 2034.72,
+      "y": 1544.38,
+      "action_params": "wait(0.998)"
+    },
+    {
       "action": "",
       "action_params": "",
-      "id": 4,
+      "id": 5,
       "move_mode": "walk",
       "type": "teleport",
       "x": 2616.22,
@@ -59,8 +65,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 5,
-      "move_mode": "dash",
+      "id": 6,
+      "move_mode": "run",
       "type": "path",
       "x": 2623.33,
       "y": 2014.73
@@ -68,8 +74,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 6,
-      "move_mode": "dash",
+      "id": 7,
+      "move_mode": "run",
       "type": "path",
       "x": 2625.58,
       "y": 1996.74
@@ -77,8 +83,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 7,
-      "move_mode": "dash",
+      "id": 8,
+      "move_mode": "run",
       "type": "path",
       "x": 2627.69,
       "y": 1981.9
@@ -86,9 +92,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 9,
+      "move_mode": "run",
       "type": "path",
+      "x": 2643.05,
+      "y": 1954.11
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 10,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 2643.05,
       "y": 1954.11
     }

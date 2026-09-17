@@ -8,9 +8,8 @@
     ],
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时111秒，包含以下怪物：2只水史莱姆、1只蕴光奇羊、2只蕴光璇蛸。",
-    "hash_res": "29721038",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1758033985518,
+    "last_modified_time": 1789393726182,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "G054挪德卡莱蓝珀湖东南",
@@ -23,10 +22,11 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 9097.6318359375,
-      "y": 2296.713623046875
+      "x": 9097.6318,
+      "y": 2296.7136
     },
     {
       "action": "",
@@ -34,8 +34,8 @@
       "id": 2,
       "move_mode": "fly",
       "type": "path",
-      "x": 9093.2783203125,
-      "y": 2280.0087890625
+      "x": 9095.6934,
+      "y": 2282.1689
     },
     {
       "action": "",
@@ -43,8 +43,8 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": 9069.125,
-      "y": 2269.704833984375
+      "x": 9068.8652,
+      "y": 2268.9082
     },
     {
       "action": "",
@@ -52,17 +52,17 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 9055.9794921875,
-      "y": 2224.7255859375
+      "x": 9057.0488,
+      "y": 2250.3623
     },
     {
-      "action": "fight",
+      "action": "",
       "action_params": "",
       "id": 5,
       "move_mode": "dash",
       "type": "path",
-      "x": 9041.0693359375,
-      "y": 2211.619384765625
+      "x": 9057.9512,
+      "y": 2237.9385
     },
     {
       "action": "",
@@ -70,44 +70,88 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
-      "x": 9029.750189603981,
-      "y": 2197.250121263707
+      "x": 9054.7793,
+      "y": 2231.6846
     },
     {
-      "action": "stop_flying",
-      "action_params": "1300",
+      "action": "",
+      "action_params": "",
       "id": 7,
-      "move_mode": "fly",
+      "locked": false,
+      "move_mode": "dash",
       "type": "path",
-      "x": 8999.874853846932,
-      "y": 2161.250712424282
+      "x": 9055.9795,
+      "y": 2224.7256
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 8,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 8997.0244140625,
-      "y": 2158.02783203125
+      "x": 9041.0693,
+      "y": 2211.6194
     },
     {
-      "action": "combat_script",
-      "action_params": "attack(0.5)",
+      "action": "",
+      "action_params": "",
       "id": 9,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 8922.80078125,
-      "y": 2178.556396484375
+      "x": 9029.7502,
+      "y": 2197.2501
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "1300",
+      "id": 10,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 8999.8749,
+      "y": 2161.2507
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 10,
+      "id": 11,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 8942.56640625,
-      "y": 2175.955322265625
+      "x": 8997.0244,
+      "y": 2158.0278
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.5)",
+      "id": 12,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 8922.8008,
+      "y": 2178.5564
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 13,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 8942.5664,
+      "y": 2175.9553
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 14,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 8942.5664,
+      "y": 2175.9553
     }
   ]
 }

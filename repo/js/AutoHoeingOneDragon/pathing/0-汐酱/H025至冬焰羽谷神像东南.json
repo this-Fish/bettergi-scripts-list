@@ -7,7 +7,7 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时84秒，包含以下怪物：4只兽怪敲打者、6只持戟羽骑士。",
+    "description": "  路线信息：该路线预计用时87秒，包含以下怪物：4只兽怪敲打者、6只持戟羽骑士。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1788025373798,
     "map_match_method": "SIFT",
@@ -78,6 +78,15 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
+      "x": 7824.2715,
+      "y": 9146.5703
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 7,
+      "move_mode": "walk",
+      "type": "orientation",
       "x": 7824.2715,
       "y": 9146.5703
     }

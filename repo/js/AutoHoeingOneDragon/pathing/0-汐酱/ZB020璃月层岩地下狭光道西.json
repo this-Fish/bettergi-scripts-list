@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时69秒，包含以下怪物：1只黑蛇骑士·斩风之剑。",
     "enable_monster_loot_split": false,
     "hash_res": "58938884",
-    "last_modified_time": 1775998811313,
+    "last_modified_time": 1774340007451,
     "map_match_method": "",
     "map_name": "TheChasm",
     "name": "ZB020璃月层岩地下狭光道西",
@@ -33,7 +33,7 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "run",
+      "move_mode": "dash",
       "type": "path",
       "x": 1201.25,
       "y": 523.3699999999999
@@ -42,28 +42,28 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 1161.591064453125,
-      "y": 510.2294921875
+      "x": 1163.83,
+      "y": 513.48
     },
     {
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 1143.277587890625,
-      "y": 427.2767333984375
+      "x": 1151.68,
+      "y": 478.1600000000001
     },
     {
       "action": "",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 1133.625,
-      "y": 375.5316065362251
+      "x": 1148.29,
+      "y": 440.3899999999999
     },
     {
       "action": "",
@@ -71,8 +71,8 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
-      "x": 1115.956787109375,
-      "y": 368.720458984375
+      "x": 1139.63,
+      "y": 422.3699999999999
     },
     {
       "action": "",
@@ -80,17 +80,35 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
-      "x": 1079.475341796875,
-      "y": 364.6087646484375
+      "x": 1137.90625,
+      "y": 389.05957843352735
     },
     {
-      "action": "fight",
+      "action": "",
       "action_params": "",
       "id": 8,
       "move_mode": "dash",
       "type": "path",
-      "x": 1067.9388427734375,
-      "y": 382.093505859375
+      "x": 1125.036376953125,
+      "y": 366.0875244140625
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 1068.55,
+      "y": 377.52
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 10,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 1068.55,
+      "y": 377.52
     }
   ]
 }

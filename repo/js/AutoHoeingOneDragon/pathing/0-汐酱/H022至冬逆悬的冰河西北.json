@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时50.5秒，包含以下怪物：4只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时53.5秒，包含以下怪物：4只兽怪敲打者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1787930615391,
+    "last_modified_time": 1789391486244,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "H022至冬逆悬的冰河西北",
@@ -37,10 +37,18 @@
       "y": 8952.4893
     },
     {
-      "action": "combat_script",
-      "action_params": ";万叶 attack(0.08),keydown(E),wait(0.8),keyup(E),attack(0.2),wait(0.5); ;",
+      "action": "",
+      "action_params": "",
       "id": 3,
-      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 7772.3096,
+      "y": 8955.6367
+    },
+    {
+      "action": "combat_script",
+      "action_params": "茜特菈莉 e;万叶 attack(0.08),keydown(E),wait(0.8),keyup(E),attack(0.2),wait(0.5);芙宁娜 w(0.001); ;",
+      "id": 4,
       "move_mode": "dash",
       "type": "path",
       "x": 7776.6377,
@@ -49,9 +57,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 4,
+      "id": 5,
       "move_mode": "dash",
       "type": "path",
+      "x": 7776.6377,
+      "y": 8999.8115
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 7776.6377,
       "y": 8999.8115
     }

@@ -1,0 +1,240 @@
+{
+  "info": {
+    "authors": [
+      {
+        "links": "",
+        "name": "mno"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时126秒，包含以下怪物：3只幼突角龙、4只突角龙。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1780844206674,
+    "map_match_method": "",
+    "map_name": "AncientSacredMountain",
+    "name": "ZF016纳塔远古圣山力向逆心西-2",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 270.5751,
+      "y": 346.8878
+    },
+    {
+      "action": "combat_script",
+      "action_params": "keypress(T)",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 280.7896,
+      "y": 343.2339
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 288.1829,
+      "y": 344.1062
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "2500",
+      "id": 4,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 313.5574,
+      "y": 344.0485
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 308.0251,
+      "y": 340.6216
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 307.6656,
+      "y": 344.7555
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 7,
+      "move_mode": "run",
+      "type": "path",
+      "x": 324.0013,
+      "y": 346.75
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "run",
+      "type": "path",
+      "x": 340.7468,
+      "y": 337.2045
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "walk",
+      "type": "path",
+      "x": 338.1873,
+      "y": 337.8125
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 337.401,
+      "y": 307.5994
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 11,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 299.498,
+      "y": 261.125
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 12,
+      "move_mode": "dash",
+      "point_ext_params": {
+        "description": "",
+        "misidentification": {
+          "arrival_time": 0,
+          "handling_mode": "previousDetectedPoint",
+          "type": [
+            "unrecognized"
+          ]
+        },
+        "monster_tag": ""
+      },
+      "type": "path",
+      "x": 316.9467,
+      "y": 246.6494
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 13,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 315.2712,
+      "y": 244.7207
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 315.2712,
+      "y": 244.7207
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 15,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 293.757,
+      "y": 257.5437
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 16,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 252.1058,
+      "y": 232.9895
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 17,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 249.1748,
+      "y": 225.6764
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 18,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 245.1219,
+      "y": 221.2191
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 19,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 245.1219,
+      "y": 221.2191
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 20,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 249.0576,
+      "y": 237.9119
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 21,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 230.4414,
+      "y": 235.9648
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 22,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 173.6296,
+      "y": 204.4454
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 23,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 173.6296,
+      "y": 204.4454
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时135秒，包含以下怪物：1只遗迹巡弋者、7只玄文兽。",
     "enable_monster_loot_split": false,
-    "hash_res": "25519745",
-    "last_modified_time": 1774335973705,
+    "last_modified_time": 1774347898927,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B006璃月沉玉谷神像",
@@ -33,7 +32,7 @@
       "action": "fight",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2259.39,
       "y": 1594.77
@@ -42,7 +41,7 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2273.17,
       "y": 1600.23
@@ -51,7 +50,7 @@
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2267.5,
       "y": 1632.5
@@ -60,7 +59,7 @@
       "action": "fight",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2250.87,
       "y": 1662.93
@@ -78,7 +77,7 @@
       "action": "",
       "action_params": "",
       "id": 7,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 2250.04,
       "y": 1695.15
@@ -93,9 +92,18 @@
       "y": 1702.74
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 2222.73,
+      "y": 1702.74
+    },
+    {
       "action": "",
       "action_params": "",
-      "id": 9,
+      "id": 10,
       "move_mode": "walk",
       "type": "teleport",
       "x": 2501.24,
@@ -104,7 +112,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 10,
+      "id": 11,
       "move_mode": "dash",
       "type": "path",
       "x": 2447.31,
@@ -113,7 +121,7 @@
     {
       "action": "combat_script",
       "action_params": "keydown(w),wait(0.1),keydown(LSHIFT),wait(8.4),keyup(w),keyup(LSHIFT),dash,",
-      "id": 11,
+      "id": 12,
       "move_mode": "walk",
       "type": "orientation",
       "x": 2376.25,
@@ -122,11 +130,29 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 12,
+      "id": 13,
       "move_mode": "walk",
       "type": "orientation",
       "x": 2376.25,
       "y": 1504.25
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 14,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 2376.25,
+      "y": 1504.25
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 15,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 2628.3876953125,
+      "y": 1528.83740234375
     }
   ]
 }

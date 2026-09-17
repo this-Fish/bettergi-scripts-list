@@ -8,10 +8,10 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时261秒，包含以下怪物：4只深邃拟覆叶。",
+    "description": "  路线信息：该路线预计用时275.56秒，包含以下怪物：4只深邃拟覆叶、1只绒翼龙。",
     "enable_monster_loot_split": false,
     "hash_res": "95488855",
-    "last_modified_time": 1772955283916,
+    "last_modified_time": 1788035821300,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "F046纳塔奥奇次数盾-3",
@@ -24,15 +24,17 @@
       "action": "force_tp",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": 10165.76,
-      "y": -395.59000000000015
+      "y": -395.59
     },
     {
       "action": "",
       "action_params": "",
       "id": 2,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 10201.94,
@@ -42,73 +44,81 @@
       "action": "",
       "action_params": "",
       "id": 3,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 10223.875,
-      "y": -408.68721226996877
+      "y": -408.6872
     },
     {
       "action": "combat_script",
       "action_params": "wait(3)",
       "id": 4,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "run",
       "type": "path",
       "x": 10242.1,
-      "y": -448.97000000000025
+      "y": -448.97
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 10254.87,
-      "y": -443.6800000000003
+      "y": -443.68
     },
     {
       "action": "",
       "action_params": "",
       "id": 6,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 10250.466796875,
-      "y": -473.97265625
+      "x": 10250.4668,
+      "y": -473.9727
     },
     {
       "action": "",
       "action_params": "",
       "id": 7,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "run",
       "type": "path",
-      "x": 10271.4013671875,
-      "y": -502.0927734375
-    },
-    {
-      "action": "",
-      "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
-      "type": "path",
-      "x": 10301.75,
-      "y": -506.75
+      "x": 10271.4014,
+      "y": -502.0928
     },
     {
       "action": "combat_script",
-      "action_params": "wait(2.5)",
-      "id": 9,
+      "action_params": "keypress(x);茜特菈莉 e;伊涅芙 e;",
+      "id": 8,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 10313.94,
-      "y": -526.4400000000005
+      "x": 10294.0225,
+      "y": -506.1846
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 10,
+      "id": 9,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 10313.94,
-      "y": -526.4400000000005
+      "x": 10272.7285,
+      "y": -509.6982
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 10272.7285,
+      "y": -509.6982
     },
     {
       "action": "",
@@ -116,44 +126,108 @@
       "id": 11,
       "move_mode": "dash",
       "type": "path",
-      "x": 10299.31,
-      "y": -558.6900000000005
+      "x": 10269.2656,
+      "y": -528.7998
     },
     {
       "action": "",
       "action_params": "",
       "id": 12,
+      "locked": true,
       "move_mode": "dash",
       "type": "path",
-      "x": 10276.1,
-      "y": -565.5799999999999
+      "x": 10266.3301,
+      "y": -543.0459
     },
     {
       "action": "",
       "action_params": "",
       "id": 13,
-      "move_mode": "walk",
+      "locked": false,
+      "move_mode": "run",
       "type": "path",
-      "x": 10275.63,
-      "y": -571.1099999999997
+      "x": 10276.1,
+      "y": -559.58
     },
     {
       "action": "combat_script",
-      "action_params": "wait(4)",
+      "action_params": "wait(5.2);茜特菈莉 e;伊涅芙 e;",
       "id": 14,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 10276.1,
-      "y": -559.5799999999999
+      "x": 10275.63,
+      "y": -571.11
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 15,
+      "locked": false,
       "move_mode": "walk",
       "type": "path",
       "x": 10276.1,
-      "y": -559.5799999999999
+      "y": -559.58
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 16,
+      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 10276.9004,
+      "y": -562.0234
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 17,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": 10299.31,
+      "y": -558.69
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(5.2)",
+      "id": 18,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 10313.94,
+      "y": -526.44
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 19,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 10313.94,
+      "y": -526.44
+    },
+    {
+      "action": "combat_script",
+      "action_params": "枫原万叶 wait(4),e(wait,hold),attack,wait(1); ;",
+      "id": 20,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 10320.9082,
+      "y": -528.123
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 21,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 10320.9082,
+      "y": -528.123
     }
   ]
 }

@@ -7,7 +7,7 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时73.5秒，包含以下怪物：5只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时76.5秒，包含以下怪物：5只兽怪敲打者。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1787935263974,
     "map_match_method": "SIFT",
@@ -78,6 +78,15 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
+      "x": 8133.1338,
+      "y": 8260.0566
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 8133.1338,
       "y": 8260.0566
     }

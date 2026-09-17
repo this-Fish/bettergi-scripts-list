@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": " 路线信息：该路线预计用时55秒，包含以下怪物：2只辖域守护者。",
+    "description": " 路线信息：该路线预计用时76秒，包含以下怪物：2只辖域守护者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1780515679340,
+    "last_modified_time": 1780256575586,
     "map_match_method": "SIFT",
     "map_name": "TempleOfSpace",
     "name": "ZA008蒙德空之神殿大方广西",
@@ -40,6 +40,7 @@
       "action": "combat_script",
       "action_params": "keydown(VK_SPACE),wait(11),keyup(VK_SPACE)",
       "id": 3,
+      "locked": false,
       "move_mode": "walk",
       "type": "orientation",
       "x": 1118.2727,
@@ -69,6 +70,15 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
+      "x": 1154.9214,
+      "y": -191.5237
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 1154.9214,
       "y": -191.5237
     }

@@ -8,7 +8,6 @@
     ],
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时78秒，包含以下怪物：1只凌晶·霜夜灵嗣、1只蕴光璇蛸。",
-    "hash_res": "69747912",
     "enable_monster_loot_split": false,
     "last_modified_time": 1758034179890,
     "map_match_method": "",
@@ -79,6 +78,15 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
+      "x": 8750.1015625,
+      "y": 2401.61474609375
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 8750.1015625,
       "y": 2401.61474609375
     }

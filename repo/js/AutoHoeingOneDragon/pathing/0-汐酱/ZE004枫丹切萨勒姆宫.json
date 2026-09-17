@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "authors": [
       {
@@ -9,7 +9,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时38秒，包含以下怪物：2只魔像禁卫。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1767728650378,
+    "last_modified_time": 1776184577969,
     "map_match_method": "",
     "map_name": "SeaOfBygoneEras",
     "name": "ZE004枫丹切萨勒姆宫",
@@ -22,6 +22,7 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": 4739.18896484375,
@@ -31,19 +32,37 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 4730.55078125,
-      "y": 1374.54443359375
+      "x": 4729.3466796875,
+      "y": 1383.7091064453125
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 4713.1474609375,
       "y": 1388.3568115234375
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.2)",
+      "id": 4,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 4713.1474609375,
+      "y": 1388.3568115234375
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 4739.18896484375,
+      "y": 1354.5679931640625
     }
   ]
 }

@@ -1,18 +1,22 @@
 {
   "info": {
-    "name": "E012枫丹湖中垂柳浊水幻灵",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时65秒，包含以下怪物：1只浊水喷吐幻灵、1只浊水粉碎幻灵。",
-    "hash_res": "32586578",
-    "bgi_version": "0.42.3",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时65秒，包含以下怪物：1只浊水喷吐幻灵、1只浊水粉碎幻灵。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1789665355410,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "E012枫丹湖中垂柳浊水幻灵",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -28,7 +32,7 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 3248.78,
       "y": 3694.78
@@ -37,7 +41,7 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 3217.73,
       "y": 3708.13
@@ -80,7 +84,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "wait(1)",
+      "action_params": "茜特菈莉 e;莱依拉 e;伊涅芙 e;wait(1)",
       "id": 8,
       "move_mode": "walk",
       "type": "path",
@@ -91,8 +95,17 @@
       "action": "fight",
       "action_params": "",
       "id": 9,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 3219.17,
+      "y": 3709
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 10,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3219.17,
       "y": 3709
     }

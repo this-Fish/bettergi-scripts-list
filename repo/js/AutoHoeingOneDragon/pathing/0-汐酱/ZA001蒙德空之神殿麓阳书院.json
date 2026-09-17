@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": " 路线信息：该路线预计用时55秒，包含以下怪物：2只辖域守护者。",
+    "description": " 路线信息：该路线预计用时75秒，包含以下怪物：2只辖域守护者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1780256781736,
+    "last_modified_time": 1780485489637,
     "map_match_method": "SIFT",
     "map_name": "TempleOfSpace",
     "name": "ZA001蒙德空之神殿麓阳书院",
@@ -22,6 +22,7 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": -370.0178,
@@ -33,22 +34,24 @@
       "id": 2,
       "move_mode": "dash",
       "type": "path",
-      "x": -373.5,
-      "y": 230.3757
+      "x": -373.1864,
+      "y": 227.75
     },
     {
       "action": "",
       "action_params": "",
       "id": 3,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": -391.3801,
       "y": 229.5195
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "茜特菈莉 e;伊涅芙 e; ;",
       "id": 4,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": -413.459,
@@ -58,8 +61,19 @@
       "action": "fight",
       "action_params": "",
       "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
+      "x": -429.4377,
+      "y": 193.1316
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 6,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -429.4377,
       "y": 193.1316
     }

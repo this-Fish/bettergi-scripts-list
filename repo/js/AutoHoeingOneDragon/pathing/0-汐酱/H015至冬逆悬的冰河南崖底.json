@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时99秒，包含以下怪物：7只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时102秒，包含以下怪物：7只兽怪敲打者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1787935288250,
+    "last_modified_time": 1788289022239,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "H015至冬逆悬的冰河南崖底",
@@ -64,8 +64,8 @@
       "y": 8719.124
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "茜特菈莉 e;万叶 attack(0.08),keydown(E),wait(0.8),keyup(E),attack(0.2),wait(0.5);",
       "id": 6,
       "move_mode": "dash",
       "type": "path",
@@ -78,6 +78,15 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
+      "x": 7422.9199,
+      "y": 8701.4688
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 7422.9199,
       "y": 8701.4688
     }

@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -8,10 +8,9 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时92.03秒，包含以下怪物：1只岩龙蜥、2只玄文兽。",
+    "description": "  路线信息：该路线预计用时76秒，包含以下怪物：1只岩龙蜥、2只玄文兽。",
     "enable_monster_loot_split": false,
-    "hash_res": "16365139",
-    "last_modified_time": 1784912848861,
+    "last_modified_time": 1774703979369,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B003璃月沉玉谷宝决口东",
@@ -33,64 +32,64 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "walk",
       "type": "path",
-      "x": 2044.9844,
-      "y": 1793.094
+      "x": 2055,
+      "y": 1797.69
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 2049.6016,
-      "y": 1769.4004
+      "x": 2057.54,
+      "y": 1771.67
     },
     {
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 2047.8135,
-      "y": 1744.498
+      "x": 2062.72,
+      "y": 1704
     },
     {
       "action": "",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 2049.1846,
-      "y": 1723.9258
+      "x": 2103.71,
+      "y": 1716.5
     },
     {
       "action": "",
       "action_params": "",
       "id": 6,
-      "move_mode": "dash",
+      "move_mode": "walk",
       "type": "path",
-      "x": 2087.2656,
-      "y": 1718.242
-    },
-    {
-      "action": "combat_script",
-      "action_params": ";茜特菈莉 keypress(E),wait(0.1),keypress(E);莱依拉 keypress(E),wait(0.1),keypress(E);伊涅芙 keypress(E),wait(0.1),keypress(E);尼可 keypress(E),wait(0.1),keypress(E);wait(2)",
-      "id": 7,
-      "move_mode": "dash",
-      "type": "path",
-      "x": 2102.6396,
-      "y": 1717.1523
+      "x": 2108.69,
+      "y": 1715.88
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 7,
+      "move_mode": "run",
       "type": "path",
-      "x": 2110.5078,
-      "y": 1714.5845
+      "x": 2093.71,
+      "y": 1714.5
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 8,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 2093.71,
+      "y": 1714.5
     }
   ]
 }

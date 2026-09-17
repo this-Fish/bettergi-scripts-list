@@ -7,7 +7,7 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时148秒，包含以下怪物：3只先驱秘源统辖阵列、1只凌晶·霜夜灵嗣。",
+    "description": "  路线信息：该路线预计用时151秒，包含以下怪物：3只先驱秘源统辖阵列、1只凌晶·霜夜灵嗣。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1788025472913,
     "map_match_method": "SIFT",
@@ -97,6 +97,20 @@
         }
       },
       "type": "path",
+      "x": -2566.5459,
+      "y": -1597.4199
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 8,
+      "move_mode": "dash",
+      "point_ext_params": {
+        "auto_fight": {
+          "reward_type": "experience"
+        }
+      },
+      "type": "orientation",
       "x": -2566.5459,
       "y": -1597.4199
     }

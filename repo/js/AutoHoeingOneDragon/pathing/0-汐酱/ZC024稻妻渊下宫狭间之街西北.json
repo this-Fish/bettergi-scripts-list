@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时113秒，包含以下怪物：1只丘丘人、1只打手丘丘人、1只丘丘雷兜王、2只深海龙蜥·原种、1只深海龙蜥·原种_600。",
     "enable_monster_loot_split": false,
     "hash_res": "61562744",
-    "last_modified_time": 1784915634479,
+    "last_modified_time": 1782375923725,
     "map_match_method": "",
     "map_name": "Enkanomiya",
     "name": "ZC024稻妻渊下宫狭间之街西北",
@@ -24,21 +24,28 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": 630.7,
       "y": 624.81
     },
     {
+      "action": "combat_script",
+      "action_params": "keypress(x);茜特菈莉 e;",
+      "id": 2,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 632.28,
+      "y": 662.75
+    },
+    {
       "action": "fight",
       "action_params": "",
-      "id": 2,
+      "id": 3,
+      "locked": true,
       "move_mode": "dash",
-      "point_ext_params": {
-        "auto_fight": {
-          "reward_type": "experience"
-        }
-      },
       "type": "path",
       "x": 632.28,
       "y": 662.75
@@ -46,7 +53,18 @@
     {
       "action": "",
       "action_params": "",
-      "id": 3,
+      "id": 4,
+      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 632.28,
+      "y": 662.75
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 671.375,
@@ -55,7 +73,8 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 4,
+      "id": 6,
+      "locked": false,
       "move_mode": "fly",
       "type": "path",
       "x": 686.9047,
@@ -63,8 +82,9 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;伊涅芙 e;",
-      "id": 5,
+      "action_params": "keypress(x);芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;伊涅芙 e;",
+      "id": 7,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 711.3579,
@@ -73,7 +93,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 6,
+      "id": 8,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 717.0996,
@@ -82,7 +103,8 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 7,
+      "id": 9,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 726.5702,
@@ -91,7 +113,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 8,
+      "id": 10,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 741.5597,
@@ -99,8 +122,9 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);茜特菈莉 e;莱依拉 e;伊涅芙 e;哥伦比娅 attack(0.2);爱可菲 e;",
-      "id": 9,
+      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;哥伦比娅 attack(0.2);玛薇卡 e;爱可菲 e;莉奈娅 e;",
+      "id": 11,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 766.5559,
@@ -108,8 +132,9 @@
     },
     {
       "action": "combat_script",
-      "action_params": "attack(0.3)",
-      "id": 10,
+      "action_params": "keypress(X);哥伦比娅 attack(0.2);attack(0.3)",
+      "id": 12,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 791.1418,
@@ -117,8 +142,9 @@
     },
     {
       "action": "combat_script",
-      "action_params": "attack(0.3)",
-      "id": 11,
+      "action_params": "keypress(x);哥伦比娅 attack(0.2);attack(0.3)",
+      "id": 13,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 775.9912,
@@ -127,9 +153,20 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 12,
+      "id": 14,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
+      "x": 778.1483,
+      "y": 635.0221
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 15,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 778.1483,
       "y": 635.0221
     }

@@ -10,7 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时170秒，包含以下怪物：1只打手丘丘人、1只火箭丘丘人、1只雷箭丘丘人、1只冰箭丘丘人、3只岩盾丘丘暴徒、2只火斧丘丘暴徒、2只雷斧丘丘暴徒、1只丘丘雷兜王、1只草丘丘萨满、1只火深渊法师、1只水深渊法师、2只雷深渊法师。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1768812269522,
+    "last_modified_time": 1787157514554,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "C014稻妻踏鞴砂-1",
@@ -25,8 +25,8 @@
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
-      "x": -3156.5999999999985,
-      "y": -3886.1000000000004
+      "x": -3156.6,
+      "y": -3886.1
     },
     {
       "action": "",
@@ -34,8 +34,8 @@
       "id": 2,
       "move_mode": "dash",
       "type": "path",
-      "x": -3126.5800000000017,
-      "y": -3872.5200000000004
+      "x": -3126.58,
+      "y": -3872.52
     },
     {
       "action": "stop_flying",
@@ -43,8 +43,8 @@
       "id": 3,
       "move_mode": "fly",
       "type": "path",
-      "x": -3067.498046875,
-      "y": -3933.599609375
+      "x": -3067.498,
+      "y": -3933.5996
     },
     {
       "action": "fight",
@@ -52,8 +52,8 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": -3036.73828125,
-      "y": -3985.33203125
+      "x": -3036.7383,
+      "y": -3985.332
     },
     {
       "action": "",
@@ -61,8 +61,8 @@
       "id": 5,
       "move_mode": "dash",
       "type": "path",
-      "x": -3010.4000000000015,
-      "y": -3995.4799999999996
+      "x": -3010.4,
+      "y": -3995.48
     },
     {
       "action": "fight",
@@ -71,16 +71,16 @@
       "move_mode": "dash",
       "type": "path",
       "x": -2958.66,
-      "y": -3950.9699999999993
+      "y": -3950.97
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(x);茜特菈莉 e;伊涅芙 e;芙宁娜 e;",
       "id": 7,
       "move_mode": "dash",
       "type": "path",
-      "x": -2919.040000000001,
-      "y": -3889.7700000000004
+      "x": -2919.04,
+      "y": -3889.77
     },
     {
       "action": "fight",
@@ -88,44 +88,62 @@
       "id": 8,
       "move_mode": "dash",
       "type": "path",
-      "x": -2903.209999999999,
-      "y": -3870.5300000000007
+      "x": -2903.21,
+      "y": -3870.53
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.2);伊涅芙 e;芙宁娜 e;莉奈娅 e;茜特菈莉 e(wait);",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -2953.66,
+      "y": -3831.32
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.2);",
+      "id": 10,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2953.66,
+      "y": -3831.32
     },
     {
       "action": "",
       "action_params": "",
-      "id": 9,
-      "move_mode": "dash",
-      "type": "path",
-      "x": -2953.66,
-      "y": -3831.3199999999997
-    },
-    {
-      "action": "combat_script",
-      "action_params": "keypress(x);茜特菈莉 e;伊涅芙 e;",
-      "id": 10,
-      "move_mode": "dash",
-      "type": "path",
-      "x": -2961.529999999999,
-      "y": -3843.0300000000007
-    },
-    {
-      "action": "fight",
-      "action_params": "",
       "id": 11,
       "move_mode": "run",
       "type": "path",
-      "x": -2970.869999999999,
-      "y": -3855.9400000000005
+      "x": -2962.4922,
+      "y": -3841.7129
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 12,
+      "move_mode": "run",
+      "type": "path",
+      "x": -2970.87,
+      "y": -3855.94
+    },
+    {
+      "action": "combat_script",
+      "action_params": "枫原万叶 wait(4),e(wait,hold),attack,wait(1.0); ;",
+      "id": 13,
       "move_mode": "dash",
       "type": "path",
       "x": -2972.75,
-      "y": -3856.2199999999993
+      "y": -3856.22
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -2972.75,
+      "y": -3856.22
     }
   ]
 }

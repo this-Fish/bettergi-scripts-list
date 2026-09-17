@@ -7,12 +7,12 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时42秒，包含以下怪物：3只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时45秒，包含以下怪物：3只兽怪敲打者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1787765940896,
+    "last_modified_time": 1788414711143,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
-    "name": "H020至冬逆悬的冰河东",
+    "name": "H20至冬逆悬的冰河东",
     "tags": [],
     "type": "collect",
     "version": "1.0"
@@ -46,9 +46,18 @@
       "y": 8888.999
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "枫原万叶 wait(4),e(wait,hold),attack,wait(1); ;",
       "id": 4,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 7417.0449,
+      "y": 8893.7539
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.456)",
+      "id": 5,
       "move_mode": "jump",
       "type": "path",
       "x": 7433.043,

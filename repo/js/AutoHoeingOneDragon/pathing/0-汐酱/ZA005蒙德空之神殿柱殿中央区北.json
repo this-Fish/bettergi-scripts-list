@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": " 路线信息：该路线预计用时55秒，包含以下怪物：4只辖域守护者。",
+    "description": " 路线信息：该路线预计用时100秒，包含以下怪物：4只辖域守护者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1780515546186,
+    "last_modified_time": 1785477484848,
     "map_match_method": "SIFT",
     "map_name": "TempleOfSpace",
     "name": "ZA005蒙德空之神殿柱殿中央区北",
@@ -28,10 +28,28 @@
       "y": 345.0627
     },
     {
+      "action": "combat_script",
+      "action_params": "茜特菈莉 e;伊涅芙 e; ;",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 537.2007,
+      "y": 352.4803
+    },
+    {
       "action": "fight",
       "action_params": "",
-      "id": 2,
+      "id": 3,
       "move_mode": "run",
+      "type": "path",
+      "x": 539.0707,
+      "y": 351.014
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "fly",
       "type": "path",
       "x": 537.2007,
       "y": 352.4803
@@ -39,30 +57,11 @@
     {
       "action": "",
       "action_params": "",
-      "id": 3,
-      "move_mode": "dash",
-      "type": "path",
-      "x": 540.005,
-      "y": 349.4694
-    },
-    {
-      "action": "",
-      "action_params": "",
-      "id": 4,
-      "locked": false,
-      "move_mode": "walk",
-      "type": "orientation",
-      "x": 552.7517,
-      "y": 322.8888
-    },
-    {
-      "action": "combat_script",
-      "action_params": "keypress(t),wait(0.1),keypress(t)",
       "id": 5,
       "move_mode": "walk",
-      "type": "orientation",
-      "x": 552.7517,
-      "y": 322.8888
+      "type": "path",
+      "x": 541.407,
+      "y": 348.5691
     },
     {
       "action": "",
@@ -70,26 +69,62 @@
       "id": 6,
       "move_mode": "walk",
       "type": "orientation",
-      "x": 614.4675,
-      "y": 372.907
+      "x": 552.7517,
+      "y": 322.8888
     },
     {
       "action": "combat_script",
-      "action_params": "keydown(VK_RBUTTON),wait(5),keydown(q),wait(0.8),keyup(q),keyup(VK_RBUTTON),wait(0.1),j",
+      "action_params": "wait(0.2),keypress(t),wait(0.2),keypress(t),wait(0.2),keypress(t),wait(0.2),keypress(t)",
       "id": 7,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 552.7517,
+      "y": 322.8888
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
       "move_mode": "walk",
       "type": "orientation",
       "x": 614.4675,
       "y": 372.907
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.2),keydown(VK_RBUTTON),wait(5),keydown(q),wait(0.8),keyup(q),keyup(VK_RBUTTON),wait(0.1),j,attack(0.3)",
+      "id": 9,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 614.4675,
+      "y": 372.907
+    },
+    {
+      "action": "combat_script",
+      "action_params": "茜特菈莉 e;伊涅芙 e; ;",
+      "id": 10,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 612.3109,
+      "y": 397.8724
+    },
+    {
       "action": "fight",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 11,
+      "move_mode": "run",
       "type": "path",
-      "x": 611.7498,
-      "y": 394.4227
+      "x": 612.3109,
+      "y": 397.8724
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 12,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 614.1276,
+      "y": 393.3239
     }
   ]
 }

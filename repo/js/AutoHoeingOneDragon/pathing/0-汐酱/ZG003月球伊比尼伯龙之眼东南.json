@@ -7,7 +7,7 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时169秒，包含以下怪物：3只先驱秘源统辖阵列。",
+    "description": "  路线信息：该路线预计用时172秒，包含以下怪物：3只先驱秘源统辖阵列。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1788025478960,
     "map_match_method": "SIFT",
@@ -87,6 +87,15 @@
       "id": 8,
       "move_mode": "dash",
       "type": "path",
+      "x": -2769.7383,
+      "y": -1468.4424
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -2769.7383,
       "y": -1468.4424
     }

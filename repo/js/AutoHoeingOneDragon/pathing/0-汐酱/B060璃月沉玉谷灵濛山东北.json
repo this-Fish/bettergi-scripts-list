@@ -8,10 +8,10 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时70.35秒，包含以下怪物：2只射手丘丘人、1只丘丘岩盔王。",
+    "description": "  路线信息：该路线预计用时49秒，包含以下怪物：2只射手丘丘人、1只丘丘岩盔王。",
     "enable_monster_loot_split": false,
     "hash_res": "83034565",
-    "last_modified_time": 1784818037318,
+    "last_modified_time": 1786316948277,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B060璃月沉玉谷灵濛山东北",
@@ -35,31 +35,35 @@
       "id": 2,
       "move_mode": "dash",
       "type": "path",
-      "x": 1960.002,
-      "y": 2327.2041
+      "x": 1953.1611,
+      "y": 2334.031
     },
     {
       "action": "combat_script",
-      "action_params": ";钟离 keypress(E),wait(0.1),keypress(E);茜特菈莉 keypress(E),wait(0.1),keypress(E);莱依拉 keypress(E),wait(0.1),keypress(E);伊涅芙 keypress(E),wait(0.1),keypress(E);尼可 keypress(E),wait(0.1),keypress(E); ;",
+      "action_params": "keypress(x);茜特菈莉 e;伊涅芙 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;莱依拉 e;伊涅芙 e;钟离 a(0.1),e(hold);枫原万叶 e(hold),wait(0.3),attack,click(middle), wait(0.8);",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": 1932.75,
-      "y": 2324.3543
+      "x": 1899.6758,
+      "y": 2330.0278
     },
     {
       "action": "fight",
-      "action_params": "20",
+      "action_params": "",
       "id": 4,
-      "move_mode": "dash",
-      "point_ext_params": {
-        "auto_fight": {
-          "reward_type": "experience"
-        }
-      },
+      "move_mode": "run",
       "type": "path",
-      "x": 1903.5605,
-      "y": 2309.5068
+      "x": 1902.8115,
+      "y": 2314.7651
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 5,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 1913.4883,
+      "y": 2310.7207
     }
   ]
 }

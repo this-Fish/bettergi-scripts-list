@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时113秒，包含以下怪物：2只岩盾丘丘人、2只射手丘丘人、1只火箭丘丘人、1只岩盾丘丘暴徒、1只丘丘岩盔王。",
     "enable_monster_loot_split": false,
-    "hash_res": "44011950",
-    "last_modified_time": 1783748259802,
+    "last_modified_time": 1786415287343,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "D005须弥觉王之殿南",
@@ -58,7 +57,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);钟离 e(hold);伊涅芙 e;茜特菈莉 e;莱依拉 e;芙宁娜 e;爱可菲 e;",
+      "action_params": "keypress(x);钟离 e(hold);伊涅芙 e;茜特菈莉 e;莱依拉 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;",
       "id": 5,
       "move_mode": "dash",
       "type": "path",
@@ -120,8 +119,8 @@
       "y": -842.583
     },
     {
-      "action": "fight",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(x);钟离 e(hold);伊涅芙 e;茜特菈莉 e;莱依拉 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;wait(2)",
       "id": 12,
       "move_mode": "dash",
       "type": "path",
@@ -129,10 +128,10 @@
       "y": -834.1333
     },
     {
-      "action": "",
+      "action": "stop_flying",
       "action_params": "",
       "id": 13,
-      "move_mode": "jump",
+      "move_mode": "fly",
       "type": "path",
       "x": 3435.0137,
       "y": -840.7803
@@ -143,6 +142,15 @@
       "id": 14,
       "move_mode": "dash",
       "type": "path",
+      "x": 3438.6465,
+      "y": -824.6167
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 15,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 3438.6465,
       "y": -824.6167
     }

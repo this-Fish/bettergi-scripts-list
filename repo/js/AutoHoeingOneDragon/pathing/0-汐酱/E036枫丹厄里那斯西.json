@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时122秒，包含以下怪物：1只大型狂蔓隙境原体、2只狂蔓隙境原体、1只遗迹重机、1只遗迹龙兽·空巡。",
     "enable_monster_loot_split": false,
-    "hash_res": "61674668",
-    "last_modified_time": 1784915374333,
+    "last_modified_time": 1789266849232,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "E036枫丹厄里那斯西",
@@ -24,64 +23,71 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 5114.5176,
-      "y": 2995.6973
+      "x": 4954.93,
+      "y": 2760.1
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(VK_SPACE),wait(2.6),click",
       "id": 2,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "fly",
       "type": "path",
-      "x": 5100.9189,
-      "y": 2966.8252
+      "x": 5038.62,
+      "y": 2781.66
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "wait(1);茜特菈莉 e;伊涅芙 e;",
       "id": 3,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "walk",
       "type": "path",
-      "x": 5098.3691,
-      "y": 2955.1396
+      "x": 5038.62,
+      "y": 2781.66
     },
     {
-      "action": "",
+      "action": "stop_flying",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "fly",
       "type": "path",
-      "x": 5075.4229,
-      "y": 2908.4932
+      "x": 5047.72,
+      "y": 2785.22
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 5075.7236,
-      "y": 2868.2764
+      "x": 5051.5,
+      "y": 2783.87
     },
     {
       "action": "",
       "action_params": "",
       "id": 6,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "jump",
       "type": "path",
-      "x": 5073.6719,
-      "y": 2845.2114
+      "x": 5051.5,
+      "y": 2783.87
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": ";枫原万叶 wait(4),e(wait,hold),attack,wait(1.6); ;",
       "id": 7,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 5063.9688,
-      "y": 2815.7503
+      "x": 5048.0156,
+      "y": 2790.6416
     },
     {
       "action": "",
@@ -89,25 +95,38 @@
       "id": 8,
       "move_mode": "dash",
       "type": "path",
-      "x": 5036.2881,
-      "y": 2786.937
+      "x": 5056.8682,
+      "y": 2801.7773
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 5071.0635,
+      "y": 2841.9617
     },
     {
       "action": "fight",
-      "action_params": "15",
-      "id": 9,
+      "action_params": "",
+      "id": 10,
+      "locked": false,
       "move_mode": "dash",
-      "point_ext_params": {
-        "auto_fight": {
-          "mora_values": [
-            600
-          ],
-          "reward_type": "mora"
-        }
-      },
       "type": "path",
-      "x": 5040.0264,
-      "y": 2774.6992
+      "x": 5075.2,
+      "y": 2862.29
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 11,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 5075.2,
+      "y": 2862.29
     }
   ]
 }

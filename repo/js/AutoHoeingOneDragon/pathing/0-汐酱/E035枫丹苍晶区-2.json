@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时50秒，包含以下怪物：1只愚人众·火之债务处理人、1只愚人众·雷莹术士。",
     "enable_monster_loot_split": false,
     "hash_res": "68502223",
-    "last_modified_time": 1774338828332,
+    "last_modified_time": 1774348421418,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "E035枫丹苍晶区-2",
@@ -44,6 +44,15 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
+      "x": 5152.7265625,
+      "y": 2606.3330078125
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 4,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 5149.02,
       "y": 2602.67
     }

@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -33,7 +33,7 @@
       "action": "fight",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 10852.9,
       "y": -2326.13
@@ -44,6 +44,15 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
+      "x": 10806.64,
+      "y": -2305.1
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 4,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 10806.64,
       "y": -2305.1
     }

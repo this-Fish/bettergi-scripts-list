@@ -6,8 +6,8 @@
         "name": "汐"
       }
     ],
-    "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时127秒，包含以下怪物：6只兽怪敲打者、3只嵌合鍪甲兽、。",
+    "bgi_version": "0.63.1",
+    "description": "  路线信息：该路线预计用时130秒，包含以下怪物：6只兽怪敲打者、3只嵌合翼象兽。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1788703246259,
     "map_match_method": "SIFT",
@@ -103,7 +103,7 @@
       "action": "",
       "action_params": "",
       "id": 10,
-      "move_mode": "dash",
+      "move_mode": "jump",
       "type": "path",
       "x": 6341.9121,
       "y": 8926.2109
@@ -121,7 +121,6 @@
       "action": "fight",
       "action_params": "",
       "id": 12,
-      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 6380.5537,
@@ -131,10 +130,28 @@
       "action": "combat_script",
       "action_params": "wait(1)",
       "id": 13,
-      "move_mode": "dash",
+      "move_mode": "jump",
       "type": "orientation",
       "x": 6380.5537,
       "y": 8954.9541
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 13,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 6113.7725,
+      "y": 9030.8799
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.4)",
+      "id": 14,
+      "move_mode": "walk",
+      "type": "path",
+      "x": 6115.3789,
+      "y": 9033.4941
     }
   ]
 }

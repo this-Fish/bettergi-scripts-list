@@ -7,7 +7,7 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": " 路线信息：该路线预计用时55秒，包含以下怪物：5只辖域守护者。",
+    "description": " 路线信息：该路线预计用时166秒，包含以下怪物：5只辖域守护者。",
     "enable_monster_loot_split": false,
     "last_modified_time": 1780256776537,
     "map_match_method": "SIFT",
@@ -96,6 +96,15 @@
       "id": 9,
       "move_mode": "dash",
       "type": "path",
+      "x": 389.3329,
+      "y": 68.2018
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 389.3329,
       "y": 68.2018
     }

@@ -1,0 +1,128 @@
+﻿{
+  "info": {
+    "authors": [
+      {
+        "links": "",
+        "name": "mno"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时97秒，包含以下怪物：2只巡陆艇·尖端全能斥候型、2只巡陆艇·尖端火力地效型。",
+    "enable_monster_loot_split": false,
+    "hash_res": "75306089",
+    "last_modified_time": 1775937812740,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "G012挪德卡莱月矩力设计局东南-2",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 9551.0087890625,
+      "y": 3104.666015625
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9545.3466796875,
+      "y": 3119.685546875
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 9549.4169921875,
+      "y": 3124.51953125
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "run",
+      "type": "path",
+      "x": 9554.7607421875,
+      "y": 3131.884765625
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 9563.779296875,
+      "y": 3143.10546875
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9583.892578125,
+      "y": 3145.580078125
+    },
+    {
+      "action": "combat_script",
+      "action_params": "keypress(f),wait(0.2),keypress(f),wait(3)",
+      "id": 7,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "target",
+      "x": 9577.814453125,
+      "y": 3148.953125
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9577.9033203125,
+      "y": 3138.46728515625
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9577.9033203125,
+      "y": 3138.46728515625
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 10,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9593.1025390625,
+      "y": 3154.80029296875
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 11,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 9593.1025390625,
+      "y": 3154.80029296875
+    }
+  ]
+}

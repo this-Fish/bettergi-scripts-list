@@ -1,19 +1,22 @@
-{
+﻿{
   "info": {
-    "name": "F039纳塔奥奇东南岛",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时52秒，包含以下怪物：2只遗迹守卫。",
-    "hash_res": "45190780",
-    "map_name": "Teyvat",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时52秒，包含以下怪物：2只遗迹守卫。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1774708473079,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "F039纳塔奥奇东南岛",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -29,7 +32,7 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 9188.69,
       "y": -574.31
@@ -49,6 +52,15 @@
       "id": 4,
       "move_mode": "walk",
       "type": "path",
+      "x": 9180.13,
+      "y": -572.94
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 5,
+      "move_mode": "walk",
+      "type": "orientation",
       "x": 9180.13,
       "y": -572.94
     }

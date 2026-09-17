@@ -8,10 +8,10 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时149.06秒，包含以下怪物：3只嗜岩·兽境幼兽、2只遗迹守卫、1只遗迹重机、2只深海龙蜥·原种、1只深海龙蜥·原种_600。",
+    "description": "  路线信息：该路线预计用时140秒，包含以下怪物：3只嗜岩·兽境幼兽、2只遗迹守卫、1只遗迹重机、2只深海龙蜥·原种、1只深海龙蜥·原种_600。",
     "enable_monster_loot_split": false,
     "hash_res": "07204760",
-    "last_modified_time": 1784915563547,
+    "last_modified_time": 1787316933713,
     "map_match_method": "",
     "map_name": "Enkanomiya",
     "name": "ZC001稻妻渊下宫常夜灵庙东北",
@@ -44,8 +44,8 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": -402.9321,
-      "y": 536.7012
+      "x": -402.8,
+      "y": 538.23
     },
     {
       "action": "",
@@ -53,22 +53,41 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": -435.6143,
-      "y": 516.0948
+      "x": -426.21,
+      "y": 507.67
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": -426.21,
-      "y": 507.67
+      "x": -434.03,
+      "y": 517
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -434.03,
+      "y": 517
     },
     {
       "action": "",
       "action_params": "",
-      "id": 6,
+      "id": 7,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -427.8699,
+      "y": 515.7452
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
       "move_mode": "dash",
       "type": "path",
       "x": -399.49,
@@ -77,7 +96,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 7,
+      "id": 9,
       "move_mode": "dash",
       "type": "path",
       "x": -351.13,
@@ -86,7 +105,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 8,
+      "id": 10,
       "move_mode": "dash",
       "type": "path",
       "x": -343.44,
@@ -95,47 +114,65 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 9,
+      "id": 11,
       "move_mode": "fly",
       "type": "path",
       "x": -311.75,
       "y": 511.52
     },
     {
-      "action": "combat_script",
-      "action_params": "芙宁娜 e;爱可菲 e;伊涅芙 e;",
-      "id": 10,
-      "move_mode": "walk",
-      "type": "path",
-      "x": -311.75,
-      "y": 511.52
-    },
-    {
-      "action": "",
-      "action_params": "",
-      "id": 11,
-      "move_mode": "dash",
-      "type": "path",
-      "x": -310.0093,
-      "y": 494.2224
-    },
-    {
       "action": "",
       "action_params": "",
       "id": 12,
+      "move_mode": "run",
+      "type": "path",
+      "x": -311.54,
+      "y": 495.19
+    },
+    {
+      "action": "combat_script",
+      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;wait(2)",
+      "id": 13,
       "move_mode": "dash",
       "type": "path",
-      "x": -283.4011,
-      "y": 499.0366
+      "x": -254.52,
+      "y": 498.9
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 13,
+      "id": 14,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -275.19,
+      "y": 491.12
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 15,
       "move_mode": "dash",
       "type": "path",
-      "x": -305.6816,
-      "y": 488.3811
+      "x": -277.12,
+      "y": 497.76
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 16,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -307.68,
+      "y": 491.98
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 17,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -307.68,
+      "y": 491.98
     }
   ]
 }

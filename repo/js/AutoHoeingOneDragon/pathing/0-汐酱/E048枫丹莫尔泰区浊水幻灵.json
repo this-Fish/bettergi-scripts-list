@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -57,6 +57,15 @@
       "y": 2265.91
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 4,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 3502.87,
+      "y": 2265.91
+    },
+    {
       "action": "",
       "action_params": "",
       "id": 5,
@@ -80,6 +89,15 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
+      "x": 3344.23,
+      "y": 2326.37
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3344.23,
       "y": 2326.37
     }

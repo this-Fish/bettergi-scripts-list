@@ -10,7 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时78秒，包含以下怪物：1只丘丘人、1只射手丘丘人、1只火箭丘丘人、1只丘丘岩盔王、1只火深渊法师。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1784913111892,
+    "last_modified_time": 1787316529450,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B027璃月离沙郊",
@@ -29,45 +29,9 @@
       "y": -583.36
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "stop_flying",
+      "action_params": "2700",
       "id": 2,
-      "move_mode": "dash",
-      "type": "path",
-      "x": 852.1621,
-      "y": -579.6836
-    },
-    {
-      "action": "stop_flying",
-      "action_params": "2000",
-      "id": 3,
-      "move_mode": "fly",
-      "type": "path",
-      "x": 868.4131,
-      "y": -566.7656
-    },
-    {
-      "action": "",
-      "action_params": "",
-      "id": 4,
-      "move_mode": "dash",
-      "type": "path",
-      "x": 907.9883,
-      "y": -541.6396
-    },
-    {
-      "action": "log_output",
-      "action_params": "这里有一只500摩拉的盗宝鼬,顺路赚点零花钱",
-      "id": 5,
-      "move_mode": "dash",
-      "type": "orientation",
-      "x": 907.9883,
-      "y": -541.6396
-    },
-    {
-      "action": "stop_flying",
-      "action_params": "",
-      "id": 6,
       "move_mode": "fly",
       "type": "path",
       "x": 882.1504,
@@ -75,8 +39,8 @@
     },
     {
       "action": "combat_script",
-      "action_params": "茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;爱可菲 e;菈乌玛 e;attack(0.3)",
-      "id": 7,
+      "action_params": ";钟离 d(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e,q;菈乌玛 e;attack(0.3);wait(3);枫原万叶 e(hold),wait(0.3),attack,wait(2);",
+      "id": 3,
       "move_mode": "walk",
       "type": "path",
       "x": 884.9033,
@@ -84,8 +48,8 @@
     },
     {
       "action": "combat_script",
-      "action_params": "wait(1.5)",
-      "id": 8,
+      "action_params": "茜特菈莉 e;wait(1.4);",
+      "id": 4,
       "move_mode": "walk",
       "type": "path",
       "x": 903.94,
@@ -94,17 +58,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 9,
+      "id": 5,
       "move_mode": "dash",
-      "point_ext_params": {
-        "auto_fight": {
-          "mora_values": [
-            600
-          ],
-          "reward_type": "mora"
-        }
-      },
       "type": "path",
+      "x": 933.5449,
+      "y": -494.7349
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 931.958,
       "y": -495.6685
     }

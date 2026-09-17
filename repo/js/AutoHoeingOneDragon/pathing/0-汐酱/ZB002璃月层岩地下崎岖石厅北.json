@@ -1,19 +1,22 @@
-{
+﻿{
   "info": {
-    "name": "ZB002璃月层岩地下崎岖石厅北",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时53秒，包含以下怪物：1只岩龙蜥。",
-    "hash_res": "08581462",
-    "map_name": "TheChasm",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时53秒，包含以下怪物：1只岩龙蜥。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1774715537347,
+    "map_match_method": "",
+    "map_name": "TheChasm",
+    "name": "ZB002璃月层岩地下崎岖石厅北",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -38,7 +41,7 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 295.94,
       "y": 536.49
@@ -47,7 +50,7 @@
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 310.41,
       "y": 559.01
@@ -56,7 +59,7 @@
       "action": "",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 307.85,
       "y": 595.29
@@ -65,8 +68,17 @@
       "action": "fight",
       "action_params": "",
       "id": 6,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 315.77,
+      "y": 635.34
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 315.77,
       "y": 635.34
     }

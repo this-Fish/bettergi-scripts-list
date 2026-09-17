@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时57秒，包含以下怪物：1只先驱秘源统辖阵列。",
+    "description": "  路线信息：该路线预计用时60秒，包含以下怪物：1只先驱秘源统辖阵列。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1787935509730,
+    "last_modified_time": 1789492315580,
     "map_match_method": "SIFT",
     "map_name": "MoonCanon",
     "name": "ZG001月球月之高地",
@@ -22,6 +22,7 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": -1920.0322,
@@ -35,6 +36,24 @@
       "type": "path",
       "x": -1942.042,
       "y": -308.1133
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -1942.042,
+      "y": -308.1133
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -1920.0322,
+      "y": -329.7832
     }
   ]
 }

@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时130秒，包含以下怪物：2只冲锋丘丘人、1只木盾丘丘暴徒、3只嗜岩·兽境幼兽、3只遗迹守卫。",
     "enable_monster_loot_split": false,
     "hash_res": "56339918",
-    "last_modified_time": 1774340058284,
+    "last_modified_time": 1780483254321,
     "map_match_method": "",
     "map_name": "Enkanomiya",
     "name": "ZC003稻妻渊下宫常夜灵庙西南",
@@ -57,8 +57,8 @@
       "y": 220.31
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": ";茜特菈莉 e;伊涅芙 e; ;",
       "id": 5,
       "move_mode": "dash",
       "type": "target",
@@ -69,7 +69,7 @@
       "action": "",
       "action_params": "",
       "id": 6,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -198.07,
       "y": 271.19
@@ -87,7 +87,7 @@
       "action": "",
       "action_params": "",
       "id": 8,
-      "move_mode": "walk",
+      "move_mode": "dash",
       "type": "path",
       "x": -221.46,
       "y": 220.49
@@ -116,6 +116,15 @@
       "id": 11,
       "move_mode": "dash",
       "type": "path",
+      "x": -290.21,
+      "y": 129.31
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 12,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -290.21,
       "y": 129.31
     }

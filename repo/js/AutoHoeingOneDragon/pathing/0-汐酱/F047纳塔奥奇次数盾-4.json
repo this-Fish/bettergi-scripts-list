@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时213秒，包含以下怪物：1只木盾丘丘人、2只深邃拟覆叶_400、2只深邃拟覆叶_200。",
     "enable_monster_loot_split": false,
     "hash_res": "80496580",
-    "last_modified_time": 1774339160211,
+    "last_modified_time": 1778313599744,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "F047纳塔奥奇次数盾-4",
@@ -27,7 +27,7 @@
       "move_mode": "walk",
       "type": "teleport",
       "x": 10034.25,
-      "y": -643.1800000000003
+      "y": -643.18
     },
     {
       "action": "",
@@ -36,7 +36,7 @@
       "move_mode": "run",
       "type": "path",
       "x": 10032.39,
-      "y": -630.1999999999998
+      "y": -630.2
     },
     {
       "action": "stop_flying",
@@ -44,8 +44,8 @@
       "id": 3,
       "move_mode": "fly",
       "type": "path",
-      "x": 10013.9052734375,
-      "y": -569.0234375
+      "x": 10016.837890625,
+      "y": -579.46923828125
     },
     {
       "action": "fight",
@@ -53,31 +53,40 @@
       "id": 4,
       "move_mode": "walk",
       "type": "path",
-      "x": 10013.9052734375,
-      "y": -569.0234375
+      "x": 10016.8,
+      "y": -579.4
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 10016.6728515625,
+      "y": -576.01171875
     },
     {
       "action": "force_tp",
       "action_params": "",
-      "id": 5,
+      "id": 6,
       "move_mode": "walk",
       "type": "teleport",
       "x": 10034.25,
-      "y": -643.1800000000003
+      "y": -643.18
     },
     {
       "action": "",
       "action_params": "",
-      "id": 6,
+      "id": 7,
       "move_mode": "walk",
       "type": "path",
       "x": 10030.31,
-      "y": -650.3099999999995
+      "y": -650.31
     },
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 7,
+      "id": 8,
       "move_mode": "fly",
       "type": "path",
       "x": 10030.24,
@@ -86,65 +95,101 @@
     {
       "action": "",
       "action_params": "",
-      "id": 8,
+      "id": 9,
       "move_mode": "dash",
       "type": "path",
       "x": 10033.46,
-      "y": -721.6599999999999
+      "y": -721.66
     },
     {
       "action": "",
       "action_params": "",
-      "id": 9,
+      "id": 10,
       "move_mode": "dash",
       "type": "path",
       "x": 10033.05,
-      "y": -772.9799999999996
+      "y": -772.98
     },
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 10,
+      "id": 11,
       "move_mode": "fly",
       "type": "path",
       "x": 10026.16,
-      "y": -796.0200000000004
+      "y": -796.02
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 11,
+      "id": 12,
       "move_mode": "walk",
       "type": "path",
       "x": 10025.5,
-      "y": -798.2200000000003
+      "y": -798.22
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 13,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 10025.5,
+      "y": -798.22
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 14,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 9755.56640625,
+      "y": -616.2734375
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(4.5)",
+      "id": 15,
+      "move_mode": "walk",
+      "type": "path",
+      "x": 9755.56640625,
+      "y": -616.2734375
     },
     {
       "action": "force_tp",
       "action_params": "",
-      "id": 12,
+      "id": 16,
       "move_mode": "walk",
       "type": "teleport",
       "x": 10034.25,
-      "y": -643.1800000000003
+      "y": -643.18
     },
     {
       "action": "stop_flying",
       "action_params": "1100",
-      "id": 13,
+      "id": 17,
       "move_mode": "fly",
       "type": "path",
       "x": 10130.82,
-      "y": -723.9200000000001
+      "y": -723.92
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 14,
+      "id": 18,
       "move_mode": "run",
       "type": "path",
       "x": 10132.3,
-      "y": -730.4300000000003
+      "y": -730.43
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 19,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 10132.3,
+      "y": -730.43
     }
   ]
 }

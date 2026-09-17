@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.63.1",
-    "description": "  路线信息：该路线预计用时73秒，包含以下怪物：6只兽怪敲打者。",
+    "description": "  路线信息：该路线预计用时76秒，包含以下怪物：6只兽怪敲打者。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1787935252273,
+    "last_modified_time": 1789663891364,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "H001至冬巡猎者木屋",
@@ -22,24 +22,45 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": 7842.5771,
       "y": 7607.8018
     },
     {
-      "action": "fight",
+      "action": "",
       "action_params": "",
       "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 7884.3389,
+      "y": 7612.062
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 7914.7178,
+      "y": 7615.1079
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 4,
+      "locked": true,
       "move_mode": "dash",
       "type": "path",
       "x": 7944.5654,
       "y": 7638.6084
     },
     {
-      "action": "",
-      "action_params": "",
-      "id": 3,
+      "action": "combat_script",
+      "action_params": ";茜特菈莉 e;莱依拉 e;伊涅芙 e;尼可 e; ;",
+      "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 7991.2578,
@@ -48,11 +69,43 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 4,
+      "id": 6,
+      "locked": false,
       "move_mode": "dash",
+      "point_ext_params": {
+        "description": "",
+        "misidentification": {
+          "arrival_time": 0,
+          "handling_mode": "previousDetectedPoint",
+          "type": [
+            "unrecognized"
+          ]
+        },
+        "monster_tag": ""
+      },
       "type": "path",
       "x": 8016.915,
       "y": 7664.6587
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 7,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 8016.915,
+      "y": 7664.6587
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 8105.876,
+      "y": 7971.5352
     }
   ]
 }

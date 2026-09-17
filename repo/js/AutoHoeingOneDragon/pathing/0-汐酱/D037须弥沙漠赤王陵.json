@@ -1,22 +1,21 @@
-{
+﻿{
   "info": {
-    "name": "D037须弥沙漠赤王陵",
-    "type": "collect",
     "authors": [
       {
-        "name": "汐",
-        "links": ""
+        "links": "",
+        "name": "汐"
       }
     ],
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时33秒，包含以下怪物：1只元能构装体·力场发生器、1只元能构装体·勘探机。",
-    "hash_res": "07861076",
-    "map_name": "Teyvat",
     "bgi_version": "0.45.0",
-    "tags": [],
-    "last_modified_time": 1754765802725,
+    "description": "  路线信息：该路线预计用时33秒，包含以下怪物：1只元能构装体·力场发生器、1只元能构装体·勘探机。",
     "enable_monster_loot_split": false,
-    "map_match_method": ""
+    "last_modified_time": 1774707687086,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "D037须弥沙漠赤王陵",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -45,6 +44,15 @@
       "type": "path",
       "x": 5429.8095703125,
       "y": -2349.8798828125
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 4,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 5435.06005859375,
+      "y": -2351.583984375
     }
   ]
 }

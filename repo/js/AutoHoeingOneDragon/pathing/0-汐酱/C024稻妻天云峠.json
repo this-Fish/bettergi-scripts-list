@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时298秒，包含以下怪物：4只遗迹巡弋者、1只遗迹歼击者、13只遗迹防卫者、2只遗迹侦察者。",
     "enable_monster_loot_split": false,
-    "hash_res": "94674885",
-    "last_modified_time": 1774337880393,
+    "last_modified_time": 1778491139877,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "C024稻妻天云峠",
@@ -31,7 +30,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keydown(w),wait(0.1),keydown(VK_LSHIFT),wait(7),keyup(VK_LSHIFT),keyup(w),click",
+      "action_params": "keydown(w),wait(0.2),keydown(VK_LSHIFT),wait(7.65),keyup(VK_LSHIFT),keyup(w),click",
       "id": 2,
       "move_mode": "walk",
       "type": "path",
@@ -49,9 +48,8 @@
     },
     {
       "action": "fight",
-      "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -4185.139999999999,
       "y": -4674.959999999999
@@ -60,25 +58,24 @@
       "action": "",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -4208.5,
       "y": -4701.689999999999
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;伊涅芙 e;钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;",
+      "action_params": "keypress(x);玛薇卡 e;芙宁娜 e;伊涅芙 e;钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;",
       "id": 6,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -4225.810000000001,
       "y": -4733.189999999999
     },
     {
       "action": "fight",
-      "action_params": "",
       "id": 7,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -4268.810000000001,
       "y": -4751.310000000001
@@ -87,25 +84,42 @@
       "action": "",
       "action_params": "",
       "id": 8,
-      "move_mode": "dash",
+      "move_mode": "jump",
+      "type": "path",
+      "x": -4268.810000000001,
+      "y": -4751.310000000001
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "run",
+      "type": "path",
+      "x": -4275.134765625,
+      "y": -4749.72265625
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "move_mode": "run",
       "type": "path",
       "x": -4301.5,
       "y": -4733.380000000001
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;伊涅芙 e;钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;",
-      "id": 9,
-      "move_mode": "dash",
+      "action_params": "keypress(x);玛薇卡 e;芙宁娜 e;伊涅芙 e;钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;",
+      "id": 11,
+      "move_mode": "run",
       "type": "path",
       "x": -4315.060000000001,
       "y": -4718.57
     },
     {
       "action": "fight",
-      "action_params": "",
-      "id": 10,
-      "move_mode": "dash",
+      "id": 12,
+      "move_mode": "run",
       "type": "path",
       "x": -4321.619999999999,
       "y": -4664.75
@@ -113,8 +127,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 11,
-      "move_mode": "dash",
+      "id": 13,
+      "move_mode": "run",
       "type": "path",
       "x": -4308.880000000001,
       "y": -4651.060000000001
@@ -122,8 +136,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 12,
-      "move_mode": "dash",
+      "id": 14,
+      "move_mode": "run",
       "type": "path",
       "x": -4248.25,
       "y": -4644.630000000001
@@ -131,7 +145,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 13,
+      "id": 15,
       "move_mode": "dash",
       "type": "path",
       "x": -4226.5625,
@@ -140,7 +154,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 14,
+      "id": 16,
       "move_mode": "dash",
       "type": "target",
       "x": -4230.234375,
@@ -149,7 +163,7 @@
     {
       "action": "combat_script",
       "action_params": "wait(1)",
-      "id": 15,
+      "id": 17,
       "move_mode": "fly",
       "type": "path",
       "x": -4249.53125,
@@ -158,7 +172,7 @@
     {
       "action": "combat_script",
       "action_params": "attack(0.3)",
-      "id": 16,
+      "id": 18,
       "move_mode": "fly",
       "type": "path",
       "x": -4275.767578125,
@@ -167,26 +181,26 @@
     {
       "action": "",
       "action_params": "",
-      "id": 17,
+      "id": 19,
       "move_mode": "dash",
       "type": "path",
       "x": -4275.783203125,
       "y": -4675.6650390625
     },
     {
-      "action": "fight",
+      "action": "",
       "action_params": "",
-      "id": 18,
+      "id": 20,
       "move_mode": "dash",
       "type": "path",
       "x": -4271.6328125,
       "y": -4688.134765625
     },
     {
-      "action": "",
+      "action": "fight",
       "action_params": "",
-      "id": 19,
-      "move_mode": "dash",
+      "id": 21,
+      "move_mode": "jump",
       "type": "path",
       "x": -4278.880000000001,
       "y": -4672.029999999999
@@ -194,7 +208,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 20,
+      "id": 22,
       "move_mode": "walk",
       "type": "path",
       "x": -4275.34,
@@ -203,7 +217,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 21,
+      "id": 23,
       "move_mode": "walk",
       "type": "orientation",
       "x": -4254.41,
@@ -212,7 +226,7 @@
     {
       "action": "combat_script",
       "action_params": "attack(0.3),wait(1),keypress(x)",
-      "id": 22,
+      "id": 24,
       "move_mode": "fly",
       "type": "path",
       "x": -4254.41,
@@ -221,7 +235,7 @@
     {
       "action": "combat_script",
       "action_params": "keypress(x)",
-      "id": 23,
+      "id": 25,
       "move_mode": "climb",
       "type": "target",
       "x": -4254.41,
@@ -230,7 +244,7 @@
     {
       "action": "combat_script",
       "action_params": "wait(0.5),keydown(w),wait(3),keyup(w),keypress(x)",
-      "id": 24,
+      "id": 26,
       "move_mode": "fly",
       "type": "path",
       "x": -4254.75,
@@ -239,7 +253,7 @@
     {
       "action": "combat_script",
       "action_params": "keypress(x)",
-      "id": 25,
+      "id": 27,
       "move_mode": "fly",
       "type": "path",
       "x": -4254,
@@ -248,17 +262,24 @@
     {
       "action": "",
       "action_params": "",
-      "id": 26,
-      "move_mode": "dash",
+      "id": 28,
+      "move_mode": "run",
+      "type": "path",
+      "x": -4264.654296875,
+      "y": -4637.662109375
+    },
+    {
+      "action": "",
+      "id": 29,
+      "move_mode": "run",
       "type": "path",
       "x": -4272.25,
       "y": -4644.5
     },
     {
       "action": "",
-      "action_params": "",
-      "id": 27,
-      "move_mode": "dash",
+      "id": 30,
+      "move_mode": "run",
       "type": "path",
       "x": -4286.619999999999,
       "y": -4656.5
@@ -266,17 +287,16 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 28,
-      "move_mode": "dash",
+      "id": 31,
+      "move_mode": "run",
       "type": "path",
       "x": -4285.380000000001,
       "y": -4674.310000000001
     },
     {
       "action": "",
-      "action_params": "",
-      "id": 29,
-      "move_mode": "dash",
+      "id": 32,
+      "move_mode": "run",
       "type": "path",
       "x": -4285.310000000001,
       "y": -4660.130000000001
@@ -284,7 +304,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 30,
+      "id": 33,
       "move_mode": "walk",
       "type": "path",
       "x": -4280.060000000001,
@@ -293,7 +313,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 31,
+      "id": 34,
       "move_mode": "fly",
       "type": "path",
       "x": -4261.619999999999,
@@ -302,9 +322,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 32,
+      "id": 35,
       "move_mode": "dash",
       "type": "path",
+      "x": -4235,
+      "y": -4648.369999999999
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 36,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -4235,
       "y": -4648.369999999999
     }

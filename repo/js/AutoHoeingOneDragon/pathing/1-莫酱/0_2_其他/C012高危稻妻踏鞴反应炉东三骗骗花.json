@@ -1,0 +1,172 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时101秒，包含以下怪物：2只火史莱姆、1只大型火史莱姆、1只雷史莱姆、1只冰史莱姆、1只大型冰史莱姆、1只炽热骗骗花、1只电气骗骗花、1只冰霜骗骗花。",
+    "enable_monster_loot_split": false,
+    "hash_res": "77254531",
+    "last_modified_time": 1785751403129,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "C012高危稻妻踏鞴反应炉东三骗骗花",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -3288.14,
+      "y": -3652.51
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3269.5723,
+      "y": -3647.2363
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.5);伊涅芙 e;茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;哥伦比娅 e;",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3253.7617,
+      "y": -3625.7236
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.1),keypress(f),wait(0.1),keypress(f),wait(0.05),keypress(f),dash",
+      "id": 4,
+      "move_mode": "swim",
+      "type": "target",
+      "x": -3246.28,
+      "y": -3622.7
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.1),keypress(f),wait(0.1),keypress(f),wait(0.05),keypress(f),dash",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "target",
+      "x": -3234.53,
+      "y": -3617.48
+    },
+    {
+      "action": "combat_script",
+      "action_params": "伊涅芙 e(wait);茜特菈莉 e;莉奈娅 e;哥伦比娅 e;芙宁娜 e;伊涅芙 e; ;",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3231.46,
+      "y": -3631.44
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.1),keypress(f),wait(0.1),keypress(f),wait(0.05),keypress(f),dash",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "target",
+      "x": -3231.06,
+      "y": -3633.44
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -3231.06,
+      "y": -3633.44
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3231.06,
+      "y": -3633.44
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3224.3,
+      "y": -3634.99
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 11,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3209.81,
+      "y": -3656.55
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "350",
+      "id": 12,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -3170.9,
+      "y": -3690.19
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 13,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3164.4687,
+      "y": -3667.5117
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3164.4687,
+      "y": -3667.5117
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 15,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -3157.3262,
+      "y": -3628.9805
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1);keypress(T)",
+      "id": 16,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -3157.3262,
+      "y": -3628.9805
+    }
+  ]
+}
