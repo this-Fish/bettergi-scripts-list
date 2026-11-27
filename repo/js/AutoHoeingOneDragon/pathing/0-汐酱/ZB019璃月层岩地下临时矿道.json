@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时77秒，包含以下怪物：1只黯色空壳·近卫、1只岩龙蜥。",
     "enable_monster_loot_split": false,
-    "hash_res": "87243908",
-    "last_modified_time": 1768135618196,
+    "last_modified_time": 1776637482866,
     "map_match_method": "",
     "map_name": "TheChasm",
     "name": "ZB019璃月层岩地下临时矿道",
@@ -36,7 +35,7 @@
       "move_mode": "run",
       "type": "path",
       "x": 906.97,
-      "y": 1020.3800000000001
+      "y": 1020.38
     },
     {
       "action": "stop_flying",
@@ -45,7 +44,7 @@
       "move_mode": "fly",
       "type": "path",
       "x": 933.04,
-      "y": 1009.3800000000001
+      "y": 1009.38
     },
     {
       "action": "",
@@ -53,8 +52,8 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 951.9000000000001,
-      "y": 1013.1399999999999
+      "x": 951.9,
+      "y": 1013.14
     },
     {
       "action": "",
@@ -62,8 +61,8 @@
       "id": 5,
       "move_mode": "walk",
       "type": "path",
-      "x": 953.8600000000001,
-      "y": 1019.9200000000001
+      "x": 953.86,
+      "y": 1019.92
     },
     {
       "action": "fight",
@@ -84,10 +83,10 @@
       "y": 1050.37
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": ";茜特菈莉 e;莱依拉 e;伊涅芙 e;",
       "id": 8,
-      "move_mode": "swim",
+      "move_mode": "run",
       "type": "path",
       "x": 927.04,
       "y": 1057.34
@@ -96,10 +95,10 @@
       "action": "",
       "action_params": "",
       "id": 9,
-      "move_mode": "jump",
+      "move_mode": "run",
       "type": "path",
-      "x": 892.3067626953125,
-      "y": 1068.50146484375
+      "x": 908.1090087890625,
+      "y": 1061.0169677734375
     },
     {
       "action": "",
@@ -107,8 +106,8 @@
       "id": 10,
       "move_mode": "jump",
       "type": "path",
-      "x": 875.5009765625,
-      "y": 1071.143310546875
+      "x": 869.81,
+      "y": 1072.37
     },
     {
       "action": "fight",
@@ -116,7 +115,16 @@
       "id": 11,
       "move_mode": "run",
       "type": "path",
-      "x": 849.6700000000001,
+      "x": 849.67,
+      "y": 1064.23
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 12,
+      "move_mode": "run",
+      "type": "orientation",
+      "x": 849.67,
       "y": 1064.23
     }
   ]

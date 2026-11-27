@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -31,9 +31,8 @@
     },
     {
       "action": "",
-      "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 3901.25,
       "y": 2535.49
@@ -42,15 +41,24 @@
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 3887.51,
+      "y": 2535.73
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 4,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 3887.51,
       "y": 2535.73
     },
     {
       "action": "",
       "action_params": "",
-      "id": 4,
+      "id": 5,
       "move_mode": "walk",
       "type": "teleport",
       "x": 3919.09,
@@ -59,7 +67,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 5,
+      "id": 6,
       "move_mode": "dash",
       "type": "path",
       "x": 3874.7,
@@ -68,8 +76,8 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 6,
-      "move_mode": "dash",
+      "id": 7,
+      "move_mode": "run",
       "type": "path",
       "x": 3880.96,
       "y": 2605.49
@@ -95,9 +103,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 9,
+      "id": 10,
       "move_mode": "dash",
       "type": "path",
+      "x": 3941.95,
+      "y": 2733.3
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 11,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 3941.95,
       "y": 2733.3
     }

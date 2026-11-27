@@ -1,0 +1,296 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时193秒，包含以下怪物：3只火史莱姆、2只雷史莱姆、1只变异雷史莱姆、2只冰史莱姆、4只冰箭丘丘人、1只盗宝团·水之药剂师、1只盗宝团·掘墓者、1只野伏·阵刀番、3只野伏·火伏番、1只野伏·机巧番、1只海乱鬼·炎威、2只海乱鬼·雷腾、1只冰霜骗骗花。",
+    "enable_monster_loot_split": false,
+    "hash_res": "76355676",
+    "last_modified_time": 1786009408486,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "C053稻妻剑鬼东-2",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -2405.78,
+      "y": -3912.93
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 2,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2377.58,
+      "y": -3887.24
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2377.58,
+      "y": -3887.24
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2356.084,
+      "y": -3848.1523
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 5,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -2352.1406,
+      "y": -3842.873
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2346.877,
+      "y": -3842.8242
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;哥伦比娅 e;",
+      "id": 7,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2344.6445,
+      "y": -3831.6924
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2369.1895,
+      "y": -3820.4248
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -2374.5137,
+      "y": -3822.1494
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2405.291,
+      "y": -3803.9707
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 11,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2398.6274,
+      "y": -3817.3816
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 12,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2398.6274,
+      "y": -3817.3816
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 13,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2420.5605,
+      "y": -3812.4004
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 14,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -2432.1172,
+      "y": -3810.8701
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 15,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2484.3789,
+      "y": -3802.8369
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 16,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2484.3789,
+      "y": -3802.8369
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 17,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "path",
+      "x": -2483.5918,
+      "y": -3795.8721
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 18,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2493.375,
+      "y": -3768.8748
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 19,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2493.375,
+      "y": -3768.8748
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 20,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2446.8,
+      "y": -3732.87
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 21,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2446.8,
+      "y": -3732.87
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 22,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2386.0156,
+      "y": -3724.0801
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 23,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2357.1309,
+      "y": -3716.0742
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 24,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2357.1309,
+      "y": -3716.0742
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);伊涅芙 e;芙宁娜 e;爱可菲 e",
+      "id": 25,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2313.6387,
+      "y": -3753.5459
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 26,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2301.4785,
+      "y": -3800.7881
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 27,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -2301.4785,
+      "y": -3800.7881
+    }
+  ]
+}

@@ -4,13 +4,17 @@
       {
         "links": "",
         "name": "汐"
+      },
+      {
+        "links": "",
+        "name": "蜜柑魚"
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时58秒，包含以下怪物：1只嗜雷·兽境猎犬、1只压制特化型机关。",
+    "description": "  路线信息：该路线预计用时61秒，包含以下怪物：1只嗜雷·兽境猎犬、1只压制特化型机关。",
     "enable_monster_loot_split": false,
     "hash_res": "43333156",
-    "last_modified_time": 1795288961710,
+    "last_modified_time": 1786401489578,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "E026枫丹卡布狄斯堡遗迹",
@@ -30,7 +34,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "wait(1)",
+      "action_params": "wait(0.6),keypress(T);芙宁娜 e;",
       "id": 2,
       "move_mode": "dash",
       "type": "orientation",
@@ -38,8 +42,8 @@
       "y": 2783.575
     },
     {
-      "action": "fight",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;玛薇卡 e;芙宁娜 e;爱可菲 e;莉奈娅 e,attack(0.65);伊涅芙 e;钟离 a(0.1),e(hold),wait(1);茜特菈莉 attack(0.3),e,wait(1);枫原万叶 e(hold),wait(0.3),attack,click(middle), wait(0.8);wait(3);",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
@@ -90,6 +94,33 @@
       "type": "orientation",
       "x": 4715.498,
       "y": 2559.4736
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 9,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 4715.498,
+      "y": 2559.4736
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 15,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 4900.1904,
+      "y": 2426.0361
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.5)",
+      "id": 16,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 4900.1904,
+      "y": 2426.0361
     }
   ]
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -10,8 +10,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时127秒，包含以下怪物：3只遗迹守卫、1只遗迹猎者。",
     "enable_monster_loot_split": false,
-    "hash_res": "94905154",
-    "last_modified_time": 1774337522633,
+    "last_modified_time": 1774347977653,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B046璃月遁玉陵-2",
@@ -60,7 +59,7 @@
       "action": "",
       "action_params": "",
       "id": 5,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1138.25,
       "y": -338.25
@@ -69,7 +68,7 @@
       "action": "combat_script",
       "action_params": "wait(3.5),",
       "id": 6,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1154.13,
       "y": -345.75
@@ -96,7 +95,7 @@
       "action": "",
       "action_params": "",
       "id": 9,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1185,
       "y": -313.5
@@ -105,14 +104,14 @@
       "action": "",
       "action_params": "",
       "id": 10,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1200.63,
       "y": -277.75
     },
     {
       "action": "combat_script",
-      "action_params": "wait(2);茜特菈莉 e;莱依拉 e;伊涅芙 e",
+      "action_params": "wait(2);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;",
       "id": 11,
       "move_mode": "dash",
       "type": "path",
@@ -123,7 +122,7 @@
       "action": "",
       "action_params": "",
       "id": 12,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1200.63,
       "y": -277.75
@@ -132,8 +131,17 @@
       "action": "fight",
       "action_params": "",
       "id": 13,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 1190.81,
+      "y": -292.94
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 14,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 1190.81,
       "y": -292.94
     }

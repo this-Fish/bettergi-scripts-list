@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时89秒，包含以下怪物：2只大型碎石隙境原体、5只碎石隙境原体。",
     "enable_monster_loot_split": false,
     "hash_res": "86002785",
-    "last_modified_time": 1774338814940,
+    "last_modified_time": 1775814372539,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "E033枫丹厄里那斯南",
@@ -31,7 +31,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(VK_SPACE),wait(3.5),click",
+      "action_params": "keypress(VK_SPACE),wait(4),click",
       "id": 2,
       "move_mode": "fly",
       "type": "path",
@@ -71,6 +71,15 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
+      "x": 4997.94,
+      "y": 2625.48
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 4997.94,
       "y": 2625.48
     }

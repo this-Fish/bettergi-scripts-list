@@ -51,7 +51,7 @@
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 1829,
       "y": 652.75
@@ -121,7 +121,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": ";伊涅芙 e;莉奈娅 e;芙宁娜 e;爱可菲 e; ;",
+      "action_params": ";茜特菈莉 e;伊涅芙 e;莉奈娅 e;芙宁娜 e;玛薇卡 e;爱可菲 e; ;",
       "id": 12,
       "move_mode": "dash",
       "type": "path",
@@ -148,7 +148,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "wait(0.2)",
+      "action_params": "wait(0.998)",
       "id": 15,
       "move_mode": "dash",
       "type": "orientation",

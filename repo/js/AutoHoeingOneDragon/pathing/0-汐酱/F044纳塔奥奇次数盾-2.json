@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时90秒，包含以下怪物：1只丘丘人、2只打手丘丘人、1只射手丘丘人、1只深邃拟覆叶_400。",
     "enable_monster_loot_split": false,
     "hash_res": "20871746",
-    "last_modified_time": 1794721819520,
+    "last_modified_time": 1763193840807,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "F044纳塔奥奇次数盾-2",
@@ -21,22 +21,22 @@
   },
   "positions": [
     {
-      "action": "force_tp",
-      "action_params": "",
       "id": 1,
-      "move_mode": "walk",
-      "type": "teleport",
       "x": 10070.24,
-      "y": 25.66
+      "y": 25.659999999999854,
+      "action": "force_tp",
+      "move_mode": "walk",
+      "action_params": "",
+      "type": "teleport"
     },
     {
+      "id": 2,
+      "x": 10062.193359375,
+      "y": 2.2744140625,
       "action": "",
       "action_params": "",
-      "id": 2,
       "move_mode": "dash",
-      "type": "path",
-      "x": 10062.1934,
-      "y": 2.2744
+      "type": "path"
     },
     {
       "action": "",
@@ -44,31 +44,44 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": 10006.5283,
-      "y": -18.9072
+      "x": 10006.5283203125,
+      "y": -18.9072265625
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;伊涅芙 e;",
+      "action_params": "keypress(x);芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;伊涅芙 e;",
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 9950.5156,
-      "y": -29.874
+      "x": 9950.515625,
+      "y": -29.8740234375
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 9927.8232421875,
+      "y": -28.826171875
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 5,
+      "id": 6,
       "move_mode": "dash",
-      "point_ext_params": {
-        "auto_fight": {
-          "reward_type": "experience"
-        }
-      },
       "type": "path",
-      "x": 9927.8232,
-      "y": -28.8262
+      "x": 9937.1611328125,
+      "y": -51.95166015625
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 7,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 9937.1611328125,
+      "y": -51.95166015625
     }
   ]
 }

@@ -62,6 +62,15 @@
       "type": "target",
       "x": 14519.750325491019,
       "y": 581.7511095351974
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 14519.750325491019,
+      "y": 581.7511095351974
     }
   ]
 }

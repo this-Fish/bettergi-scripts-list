@@ -9,8 +9,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时124秒，包含以下怪物：1只打手丘丘人、1只黯色空壳·旗令、1只黯色空壳·近卫、1只黑蛇骑士·斩风之剑、1只遗迹重机。",
     "enable_monster_loot_split": false,
-    "hash_res": "15399287",
-    "last_modified_time": 1774337302196,
+    "last_modified_time": 1788525094304,
     "map_match_method": "",
     "map_name": "TheChasm",
     "name": "ZB005璃月层岩地下崎岖石厅南",
@@ -25,8 +24,8 @@
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 356.222900390625,
-      "y": 177.9271240234375
+      "x": 356.2229,
+      "y": 177.9271
     },
     {
       "action": "stop_flying",
@@ -34,8 +33,8 @@
       "id": 2,
       "move_mode": "fly",
       "type": "path",
-      "x": 349.44580078125,
-      "y": 157.1390380859375
+      "x": 349.4458,
+      "y": 157.139
     },
     {
       "action": "",
@@ -43,8 +42,8 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": 344.2509765625,
-      "y": 145.241455078125
+      "x": 344.251,
+      "y": 145.2415
     },
     {
       "action": "",
@@ -52,17 +51,17 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 344.4857177734375,
-      "y": 136.88134765625
+      "x": 344.4857,
+      "y": 136.8813
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);钟离 a(0.1),wait(0.2),e(hold);",
+      "action_params": "keypress(x);钟离 a(0.1),wait(0.2),e(hold);茜特菈莉 e;伊涅芙 e;",
       "id": 5,
       "move_mode": "dash",
       "type": "path",
-      "x": 335.8414306640625,
-      "y": 119.7213134765625
+      "x": 335.8414,
+      "y": 119.7213
     },
     {
       "action": "combat_script",
@@ -70,17 +69,17 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
-      "x": 330.749962474212,
-      "y": 115.15656831723277
+      "x": 330.75,
+      "y": 115.1566
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 7,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 316.74989729784375,
-      "y": 140.75036379112316
+      "x": 316.7499,
+      "y": 140.7504
     },
     {
       "action": "fight",
@@ -88,17 +87,17 @@
       "id": 8,
       "move_mode": "dash",
       "type": "path",
-      "x": 306.05419921875,
-      "y": 139.486572265625
+      "x": 306.0542,
+      "y": 139.4866
     },
     {
       "action": "",
       "action_params": "",
       "id": 9,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 328.6563720703125,
-      "y": 117.8282470703125
+      "x": 328.6564,
+      "y": 117.8282
     },
     {
       "action": "",
@@ -106,17 +105,17 @@
       "id": 10,
       "move_mode": "dash",
       "type": "path",
-      "x": 338.21875,
-      "y": 115.96867253422238
+      "x": 338.2188,
+      "y": 115.9687
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "attack(0.3);芙宁娜 e;wait(0.5)",
       "id": 11,
       "move_mode": "dash",
       "type": "path",
-      "x": 346.7025146484375,
-      "y": 99.5430908203125
+      "x": 346.1888,
+      "y": 98.0009
     },
     {
       "action": "",
@@ -124,17 +123,44 @@
       "id": 12,
       "move_mode": "dash",
       "type": "path",
-      "x": 348.1641845703125,
-      "y": 69.5811767578125
+      "x": 346.2245,
+      "y": 95.7365
+    },
+    {
+      "action": "combat_script",
+      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;莉奈娅 e;茜特菈莉 e;伊涅芙 e;",
+      "id": 13,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 368.25,
+      "y": 80.6245
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 14,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 392.75,
+      "y": 81.25
     },
     {
       "action": "fight",
       "action_params": "",
-      "id": 13,
-      "move_mode": "dash",
+      "id": 15,
+      "move_mode": "climb",
       "type": "path",
-      "x": 391.4989013671875,
-      "y": 86.233154296875
+      "x": 385.7501,
+      "y": 81.344
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 16,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 385.7501,
+      "y": 81.344
     }
   ]
 }

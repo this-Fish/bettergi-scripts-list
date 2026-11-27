@@ -1,18 +1,22 @@
 {
   "info": {
-    "name": "C066稻妻水月池",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时181秒，包含以下怪物：1只愚人众·藏镜仕女、1只遗迹巡弋者、1只遗迹歼击者、1只遗迹防卫者、1只遗迹侦察者。",
-    "hash_res": "47479348",
-    "bgi_version": "0.42.3",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时181秒，包含以下怪物：1只愚人众·藏镜仕女、1只遗迹巡弋者、1只遗迹歼击者、1只遗迹防卫者、1只遗迹侦察者。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1774705082354,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "C066稻妻水月池",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -118,7 +122,7 @@
       "action": "fight",
       "action_params": "",
       "id": 12,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": -1140.71,
       "y": -3545.89
@@ -205,9 +209,18 @@
       "y": -3662.69
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 22,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -1011.44,
+      "y": -3662.69
+    },
+    {
       "action": "",
       "action_params": "",
-      "id": 22,
+      "id": 23,
       "move_mode": "walk",
       "type": "teleport",
       "x": -1314.36,
@@ -216,9 +229,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 23,
+      "id": 24,
       "move_mode": "dash",
       "type": "path",
+      "x": -1340,
+      "y": -3783.63
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 25,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -1340,
       "y": -3783.63
     }

@@ -1,0 +1,136 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时124秒，包含以下怪物：3只水史莱姆、1只大型水史莱姆、1只盗宝团·火之药剂师、1只盗宝团·雷之药剂师、2只盗宝团·掘墓者、4只野伏·机巧番、1只海乱鬼·雷腾。",
+    "enable_monster_loot_split": false,
+    "hash_res": "12682308",
+    "last_modified_time": 1794761304646,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "C056稻妻剑鬼东-3",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -2405.73,
+      "y": -3912.93
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2446.6504,
+      "y": -3909.7051
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "2000",
+      "id": 3,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -2484.1953,
+      "y": -3900.3496
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "walk",
+      "type": "path",
+      "x": -2484.1953,
+      "y": -3900.3496
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -2488.9727,
+      "y": -3895.75
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2514.9727,
+      "y": -3882.1611
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2577.9766,
+      "y": -3810.873
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2577.9766,
+      "y": -3810.873
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2561.8164,
+      "y": -3780.1709
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 10,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -2542.4219,
+      "y": -3787.1924
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 11,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -2525.752,
+      "y": -3797.2871
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 12,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -2525.752,
+      "y": -3797.2871
+    }
+  ]
+}

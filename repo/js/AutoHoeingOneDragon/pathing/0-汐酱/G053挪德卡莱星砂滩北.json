@@ -8,9 +8,9 @@
     ],
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时130秒，包含以下怪物：1只水史莱姆、1只大型水史莱姆、2只荒野狂狩士、1只愚人众特辖队·线列军、2只愚人众特辖队·支援兵、1只愚人众特辖队·榴铳手、1只愚人众特辖队·先锋士、1只愚人众特辖队·疗愈师、1只愚人众特辖队·火刃突击队、1只愚人众特辖队·冰雹重炮手。",
-    "hash_res": "03710701",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1763148168665,
+    "hash_res": "03710701",
+    "last_modified_time": 1789267854435,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "G053挪德卡莱星砂滩北",
@@ -25,8 +25,8 @@
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 9560.4287109375,
-      "y": 2134.274169921875
+      "x": 9560.4287,
+      "y": 2134.2742
     },
     {
       "action": "stop_flying",
@@ -34,8 +34,8 @@
       "id": 2,
       "move_mode": "fly",
       "type": "path",
-      "x": 9556.478515625,
-      "y": 2166.8408203125
+      "x": 9556.4785,
+      "y": 2166.8408
     },
     {
       "action": "fight",
@@ -43,17 +43,17 @@
       "id": 3,
       "move_mode": "dash",
       "type": "path",
-      "x": 9549.1171875,
-      "y": 2245.312744140625
+      "x": 9549.1172,
+      "y": 2245.3127
     },
     {
       "action": "combat_script",
-      "action_params": "attack(0.2);伊涅芙 e;芙宁娜 e;爱可菲 e;",
+      "action_params": "attack(0.2);茜特菈莉 e;伊涅芙 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;",
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 9625.134765625,
-      "y": 2310.6845703125
+      "x": 9625.1348,
+      "y": 2310.6846
     },
     {
       "action": "fight",
@@ -61,17 +61,17 @@
       "id": 5,
       "move_mode": "dash",
       "type": "path",
-      "x": 9606.59765625,
-      "y": 2316.531005859375
+      "x": 9606.5977,
+      "y": 2316.531
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;伊涅芙 e;",
+      "action_params": "keypress(x);茜特菈莉 e;伊涅芙 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;",
       "id": 6,
       "move_mode": "dash",
       "type": "path",
-      "x": 9630.5078125,
-      "y": 2385.0380859375
+      "x": 9630.5078,
+      "y": 2385.0381
     },
     {
       "action": "fight",
@@ -79,8 +79,17 @@
       "id": 7,
       "move_mode": "dash",
       "type": "path",
-      "x": 9640.861328125,
-      "y": 2391.14404296875
+      "x": 9640.8613,
+      "y": 2391.144
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 9640.8613,
+      "y": 2391.144
     }
   ]
 }

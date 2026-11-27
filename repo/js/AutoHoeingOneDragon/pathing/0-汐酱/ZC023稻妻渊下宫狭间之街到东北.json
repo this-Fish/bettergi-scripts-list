@@ -1,29 +1,29 @@
 {
   "info": {
-    "name": "ZC023稻妻渊下宫狭间之街到东北",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时95秒，包含以下怪物：2只打手丘丘人、1只冰箭丘丘人、1只火深渊法师、2只深海龙蜥·原种、1只深海龙蜥·原种_600。",
-    "hash_res": "43434511",
-    "map_name": "Enkanomiya",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
     ],
-    "tags": [],
-    "last_modified_time": 1754746106312,
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时95秒，包含以下怪物：2只打手丘丘人、1只冰箭丘丘人、1只火深渊法师、2只深海龙蜥·原种、1只深海龙蜥·原种_600。",
     "enable_monster_loot_split": false,
-    "map_match_method": ""
+    "last_modified_time": 1783242706949,
+    "map_match_method": "",
+    "map_name": "Enkanomiya",
+    "name": "ZC023稻妻渊下宫狭间之街到东北",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
       "move_mode": "walk",
       "type": "teleport",
       "x": 625.96,
@@ -33,7 +33,8 @@
       "action": "",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "run",
       "type": "path",
       "x": 599.4,
       "y": 625.84
@@ -42,24 +43,27 @@
       "action": "",
       "action_params": "",
       "id": 3,
-      "move_mode": "dash",
+      "locked": false,
+      "move_mode": "run",
       "type": "path",
-      "x": 573.32,
-      "y": 645.86
+      "x": 567.4635,
+      "y": 656.486
     },
     {
       "action": "",
       "action_params": "",
       "id": 4,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 530.33,
-      "y": 648.07
+      "x": 528.8441,
+      "y": 649.0657
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 5,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 523.87,
@@ -69,35 +73,58 @@
       "action": "stop_flying",
       "action_params": "",
       "id": 6,
+      "locked": false,
       "move_mode": "fly",
       "type": "path",
       "x": 536.93,
       "y": 689.91
     },
     {
-      "action": "combat_script",
-      "action_params": "keypress(x);茜特菈莉 e;莱依拉 e;wait(3)",
+      "action": "",
+      "action_params": "",
       "id": 7,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
-      "x": 591.21,
-      "y": 682.75
+      "x": 567.2047,
+      "y": 684.2448
     },
     {
-      "action": "fight",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;wait(3)",
       "id": 8,
-      "move_mode": "dash",
+      "locked": true,
+      "move_mode": "run",
       "type": "path",
-      "x": 571.38,
-      "y": 686.66
+      "x": 588.3866,
+      "y": 686.379
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 9,
+      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 571.38,
+      "y": 686.66
+    },
+    {
+      "action": "combat_script",
+      "action_params": "枫原万叶  wait(0.1),e(wait,hold),attack,wait(1.5)",
+      "id": 10,
+      "locked": false,
       "move_mode": "dash",
       "type": "path",
+      "x": 550.856,
+      "y": 684.7329
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 11,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 548.3,
       "y": 680.97
     }

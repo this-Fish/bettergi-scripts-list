@@ -1,4 +1,4 @@
-﻿{
+{
   "info": {
     "authors": [
       {
@@ -28,8 +28,8 @@
       "y": 5629.7216796875
     },
     {
-      "action": "",
-      "action_params": "",
+      "action": "log_output",
+      "action_params": "交互或拾取：\"---SIFT圖---\"",
       "id": 2,
       "move_mode": "walk",
       "type": "path",
@@ -40,7 +40,6 @@
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "locked": false,
       "move_mode": "dash",
       "type": "path",
       "x": 10112.982421875,
@@ -52,6 +51,15 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
+      "x": 10112.982421875,
+      "y": 5568.8466796875
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 10112.982421875,
       "y": 5568.8466796875
     }

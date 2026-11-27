@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "authors": [
       {
@@ -10,7 +10,7 @@
     "description": "  路线信息：该路线预计用时78秒，包含以下怪物：1只丘丘岩盔王、1只元能构装体·勘探机、1只旋转火蕈兽。",
     "enable_monster_loot_split": false,
     "hash_res": "80824249",
-    "last_modified_time": 1774109257689,
+    "last_modified_time": 1774348350496,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "D038须弥沙漠赤王陵东岩窟",
@@ -115,6 +115,15 @@
       "id": 11,
       "move_mode": "dash",
       "type": "path",
+      "x": 5299.78369140625,
+      "y": -2724.634765625
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 12,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 5299.78369140625,
       "y": -2724.634765625
     }

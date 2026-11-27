@@ -1,0 +1,76 @@
+{
+  "info": {
+    "authors": [
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时45秒，包含以下怪物：2只风史莱姆、1只大型风史莱姆、3只冰史莱姆、1只大型冰史莱姆。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1783420701463,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "A012蒙德晨曦酒庄西",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -201.7969,
+      "y": 1862.6006
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -173.5762,
+      "y": 1862.8896
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -173.5762,
+      "y": 1862.8896
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "jump",
+      "type": "path",
+      "x": -165.3555,
+      "y": 1867.1396
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -90.5703,
+      "y": 1849.9277
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -90.5703,
+      "y": 1849.9277
+    }
+  ]
+}

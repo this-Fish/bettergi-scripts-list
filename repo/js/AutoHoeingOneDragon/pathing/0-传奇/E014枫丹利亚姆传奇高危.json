@@ -75,6 +75,15 @@
       "type": "path",
       "x": 2900.8125,
       "y": 3781.3121680038093
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 2900.8125,
+      "y": 3781.3121680038093
     }
   ]
 }

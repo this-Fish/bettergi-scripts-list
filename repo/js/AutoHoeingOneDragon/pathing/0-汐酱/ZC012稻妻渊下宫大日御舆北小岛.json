@@ -1,23 +1,22 @@
-{
+﻿{
   "info": {
-    "name": "ZC012稻妻渊下宫大日御舆北小岛",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时81秒，包含以下怪物：2只丘丘人、4只打手丘丘人、2只射手丘丘人、1只木盾丘丘暴徒、1只丘丘岩盔王。",
-    "hash_res": "91179120",
-    "map_name": "Enkanomiya",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
     ],
-    "tags": [],
-    "last_modified_time": 1754760395806,
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时81秒，包含以下怪物：2只丘丘人、4只打手丘丘人、2只射手丘丘人、1只木盾丘丘暴徒、1只丘丘岩盔王。",
     "enable_monster_loot_split": false,
-    "map_match_method": ""
+    "last_modified_time": 1774715873119,
+    "map_match_method": "",
+    "map_name": "Enkanomiya",
+    "name": "ZC012稻妻渊下宫大日御舆北小岛",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -89,6 +88,15 @@
       "id": 8,
       "move_mode": "dash",
       "type": "path",
+      "x": 279.0966796875,
+      "y": 616.95849609375
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 279.0966796875,
       "y": 616.95849609375
     }

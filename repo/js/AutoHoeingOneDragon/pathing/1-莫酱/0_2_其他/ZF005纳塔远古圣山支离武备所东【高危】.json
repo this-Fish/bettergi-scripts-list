@@ -1,0 +1,121 @@
+{
+  "info": {
+    "authors": [
+      {
+        "links": "",
+        "name": "mno"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时111.64秒，包含以下怪物：1只深邃拟覆叶、1只秘源机兵·寻捕械。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1787241978568,
+    "map_match_method": "",
+    "map_name": "AncientSacredMountain",
+    "name": "ZF005纳塔远古圣山支离武备所东【高危】",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -84.7581,
+      "y": 646.2881
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "locked": true,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -293.4529,
+      "y": 535.0209
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": -273.2971,
+      "y": 533.0767
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": -252.5398,
+      "y": 537.5674
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -246.6272,
+      "y": 547.236
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": -230.6018,
+      "y": 597.47
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 7,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": -232.252,
+      "y": 623.6969
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": -232.252,
+      "y": 623.6969
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": -232.2659,
+      "y": 616.7946
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -546.1765,
+      "y": 7.3374
+    }
+  ]
+}

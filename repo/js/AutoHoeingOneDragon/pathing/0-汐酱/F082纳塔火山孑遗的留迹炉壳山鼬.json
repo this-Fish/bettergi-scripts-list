@@ -1,18 +1,21 @@
-{
+﻿{
   "info": {
-    "name": "F082纳塔火山孑遗的留迹炉壳山鼬",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时57秒，包含以下怪物：1只炉壳山鼬。",
-    "hash_res": "26592241",
-    "bgi_version": "0.42.3",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时57秒，包含以下怪物：1只炉壳山鼬。",    "enable_monster_loot_split": false,
+    "last_modified_time": 1774708646742,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "F082纳塔火山孑遗的留迹炉壳山鼬",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -46,7 +49,7 @@
       "action": "",
       "action_params": "",
       "id": 4,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
       "x": 10075.84,
       "y": -3051.36
@@ -66,6 +69,15 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
+      "x": 10025.77,
+      "y": -3054.84
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 10025.77,
       "y": -3054.84
     }

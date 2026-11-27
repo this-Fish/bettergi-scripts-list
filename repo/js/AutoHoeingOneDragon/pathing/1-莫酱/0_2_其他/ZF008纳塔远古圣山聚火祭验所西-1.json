@@ -1,0 +1,112 @@
+{
+  "info": {
+    "authors": [
+      {
+        "links": "",
+        "name": "mno"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时74秒，包含以下怪物：5只突角龙。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1779727204747,
+    "map_match_method": "",
+    "map_name": "AncientSacredMountain",
+    "name": "ZF008纳塔远古圣山聚火祭验所西-1",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": -81.1895,
+      "y": -249.1106
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -73.28,
+      "y": -226.4834
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -82.6702,
+      "y": -225.8235
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 4,
+      "move_mode": "fly",
+      "type": "path",
+      "x": -116.8618,
+      "y": -226.2537
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack;伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;wait(1);",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -120.4851,
+      "y": -220.9529
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -147.6792,
+      "y": -215.981
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -147.6792,
+      "y": -215.981
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack;伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;wait(1);",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -176.6565,
+      "y": -247.9741
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "path",
+      "x": -266.6294,
+      "y": -278.8406
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 10,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": -266.637,
+      "y": -278.8728
+    }
+  ]
+}

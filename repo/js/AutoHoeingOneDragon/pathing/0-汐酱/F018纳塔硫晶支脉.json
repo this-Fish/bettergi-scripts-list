@@ -1,19 +1,22 @@
-{
+﻿{
   "info": {
-    "name": "F018纳塔硫晶支脉",
-    "type": "collect",
     "author": "汐",
-    "version": "1.0",
-    "description": "  路线信息：该路线预计用时30秒，包含以下怪物：1只秘源机兵·寻捕械。",
-    "hash_res": "09031886",
-    "map_name": "Teyvat",
-    "bgi_version": "0.45.0",
     "authors": [
       {
-        "name": "汐",
-        "links": "https://github.com/jiegedabaobei"
+        "links": "https://github.com/jiegedabaobei",
+        "name": "汐"
       }
-    ]
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时30秒，包含以下怪物：1只秘源机兵·寻捕械。",
+    "enable_monster_loot_split": false,
+    "last_modified_time": 1774708413665,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "F018纳塔硫晶支脉",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
   },
   "positions": [
     {
@@ -29,8 +32,17 @@
       "action": "fight",
       "action_params": "",
       "id": 2,
-      "move_mode": "dash",
+      "move_mode": "run",
       "type": "path",
+      "x": 8455.89,
+      "y": -1227.93
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 3,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 8455.89,
       "y": -1227.93
     }

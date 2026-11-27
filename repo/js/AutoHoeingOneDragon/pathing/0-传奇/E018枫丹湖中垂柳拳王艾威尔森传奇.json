@@ -64,6 +64,15 @@
       "type": "orientation",
       "x": 3114.63,
       "y": 3945.72
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 3114.63,
+      "y": 3945.72
     }
   ]
 }

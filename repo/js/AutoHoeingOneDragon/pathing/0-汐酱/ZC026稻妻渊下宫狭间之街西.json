@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -8,10 +8,10 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时138秒，包含以下怪物：3只打手丘丘人、1只冲锋丘丘人、1只木盾丘丘人、2只火斧丘丘暴徒、1只雷斧丘丘暴徒、1只水丘丘萨满、1只遗迹守卫、3只遗迹歼击者、1只遗迹防卫者、1只深海龙蜥·原种。",
+    "description": "  路线信息：该路线预计用时170.9秒，包含以下怪物：3只打手丘丘人、1只冲锋丘丘人、1只木盾丘丘人、2只火斧丘丘暴徒、1只雷斧丘丘暴徒、1只水丘丘萨满、1只遗迹守卫、3只遗迹歼击者、1只遗迹防卫者、1只深海龙蜥·原种。",
     "enable_monster_loot_split": false,
     "hash_res": "65684637",
-    "last_modified_time": 1774340257305,
+    "last_modified_time": 1774348717625,
     "map_match_method": "",
     "map_name": "Enkanomiya",
     "name": "ZC026稻妻渊下宫狭间之街西",
@@ -66,9 +66,18 @@
       "y": 497.1700000000001
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 6,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 666.5799999999999,
+      "y": 497.1700000000001
+    },
+    {
       "action": "",
       "action_params": "",
-      "id": 6,
+      "id": 7,
       "move_mode": "walk",
       "type": "teleport",
       "x": 719.0799999999999,
@@ -77,8 +86,8 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 7,
-      "move_mode": "dash",
+      "id": 8,
+      "move_mode": "run",
       "type": "path",
       "x": 757.95,
       "y": 477.3399999999999
@@ -86,8 +95,8 @@
     {
       "action": "",
       "action_params": "",
-      "id": 8,
-      "move_mode": "dash",
+      "id": 9,
+      "move_mode": "run",
       "type": "path",
       "x": 757.95,
       "y": 477.3399999999999
@@ -95,7 +104,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 9,
+      "id": 10,
       "move_mode": "dash",
       "type": "path",
       "x": 815.8299999999999,
@@ -104,7 +113,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 10,
+      "id": 11,
       "move_mode": "walk",
       "type": "path",
       "x": 831.3800000000001,
@@ -113,7 +122,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 11,
+      "id": 12,
       "move_mode": "fly",
       "type": "path",
       "x": 875.9299999999998,
@@ -122,7 +131,7 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 12,
+      "id": 13,
       "move_mode": "walk",
       "type": "path",
       "x": 873.72,
@@ -131,7 +140,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 13,
+      "id": 14,
       "move_mode": "dash",
       "type": "path",
       "x": 882.79,
@@ -140,7 +149,7 @@
     {
       "action": "stop_flying",
       "action_params": "",
-      "id": 14,
+      "id": 15,
       "move_mode": "fly",
       "type": "path",
       "x": 919.1199999999999,
@@ -149,9 +158,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 15,
+      "id": 16,
       "move_mode": "walk",
       "type": "path",
+      "x": 921.3899999999999,
+      "y": 487.31999999999994
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 17,
+      "move_mode": "walk",
+      "type": "orientation",
       "x": 921.3899999999999,
       "y": 487.31999999999994
     }

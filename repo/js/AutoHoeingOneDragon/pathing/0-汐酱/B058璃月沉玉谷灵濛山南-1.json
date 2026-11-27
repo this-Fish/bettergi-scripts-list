@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时50秒，包含以下怪物：1只丘丘岩盔王。",
     "enable_monster_loot_split": false,
     "hash_res": "01480954",
-    "last_modified_time": 1768831161039,
+    "last_modified_time": 1777360669020,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "B058璃月沉玉谷灵濛山南-1",
@@ -24,6 +24,25 @@
       "action": "",
       "action_params": "",
       "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 1468.3955078125,
+      "y": 1998.3369140625
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(3)",
+      "id": 2,
+      "move_mode": "walk",
+      "type": "path",
+      "x": 1468.3955078125,
+      "y": 1998.3369140625
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
       "move_mode": "walk",
       "type": "teleport",
       "x": 2002.369999999999,
@@ -32,7 +51,7 @@
     {
       "action": "",
       "action_params": "",
-      "id": 2,
+      "id": 4,
       "move_mode": "dash",
       "type": "path",
       "x": 1979.2900000000009,
@@ -41,9 +60,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 3,
+      "id": 5,
       "move_mode": "run",
       "type": "path",
+      "x": 1969.369999999999,
+      "y": 2066.49
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 6,
+      "move_mode": "run",
+      "type": "orientation",
       "x": 1969.369999999999,
       "y": 2066.49
     }

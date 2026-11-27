@@ -7,9 +7,9 @@
       }
     ],
     "bgi_version": "0.45.0",
-    "description": "  路线信息：该路线预计用时55秒，包含以下怪物：1只丘丘霜铠王。",
+    "description": "  路线信息：该路线预计用时63秒，包含以下怪物：1只丘丘霜铠王。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1788025451085,
+    "last_modified_time": 1791138453987,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "H028至冬谒圣山峡",
@@ -38,7 +38,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": ";钟离 attack(0.05),keypress(Q),wait(0.1),keypress(Q);茜特菈莉 attack(0.05),keypress(E),wait(0.1),keypress(E);莱依拉 attack(0.05),keypress(E),wait(0.1),keypress(E);伊涅芙 attack(0.05),keypress(E),wait(0.1),keypress(E);尼可 attack(0.05),keypress(E),wait(0.1),keypress(E);莉奈娅 attack(0.05),keypress(E),wait(0.1),keypress(E);芙宁娜 attack(0.05),keypress(E),wait(0.1),keypress(E);玛薇卡 attack(0.05),keypress(E),wait(0.1),keypress(E);爱可菲 attack(0.05),keypress(E),wait(0.1),keypress(E); ;",
+      "action_params": ";钟离 attack(0.05),keypress(Q),wait(0.1),keypress(Q);茜特菈莉 e;莱依拉 e;伊涅芙 e;尼可 e;芙宁娜 e;莉奈娅 e;玛薇卡 e;爱可菲 e; ;",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
@@ -51,6 +51,15 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
+      "x": 5787.3906,
+      "y": 9455.6721
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 5787.3906,
       "y": 9455.6721
     }

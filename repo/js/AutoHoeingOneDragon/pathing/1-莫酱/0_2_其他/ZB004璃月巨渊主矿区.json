@@ -1,0 +1,167 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时101秒，包含以下怪物：3只火史莱姆、1只大型火史莱姆、1只大型雷史莱姆、1只变异雷史莱姆、1只愚人众先遣队·火统游击兵、1只愚人众先遣队·雷锤前锋军、1只盗宝团·火之药剂师、1只盗宝团·雷之药剂师。",
+    "enable_monster_loot_split": false,
+    "hash_res": "82686638",
+    "last_modified_time": 1786388962850,
+    "map_match_method": "",
+    "map_name": "TheChasm",
+    "name": "ZB004璃月巨渊主矿区",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 338.72,
+      "y": 975.1
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 324.5583,
+      "y": 967.7402
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 274.2305,
+      "y": 965.5289
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "1000",
+      "id": 4,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 280.1872,
+      "y": 949
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 5,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 279.375,
+      "y": 952.6253
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 6,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 292.4187,
+      "y": 955.4231
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 7,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 312.9753,
+      "y": 962.9135
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 312.9753,
+      "y": 962.9135
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 9,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 280.1117,
+      "y": 960.7788
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 255.7159,
+      "y": 960.0789
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 11,
+      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 240.7891,
+      "y": 964.8147
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 12,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 218.4645,
+      "y": 971.6077
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 13,
+      "locked": false,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 218.4645,
+      "y": 971.6077
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 14,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 218.4645,
+      "y": 971.6077
+    }
+  ]
+}

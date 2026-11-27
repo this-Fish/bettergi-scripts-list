@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "authors": [
       {
@@ -9,7 +9,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时40秒，包含以下怪物：1只驰岚·霜夜灵嗣。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1768419798597,
+    "last_modified_time": 1774347078772,
     "map_match_method": "SIFT",
     "map_name": "Teyvat",
     "name": "G035挪德卡莱西风戍垒南",
@@ -33,6 +33,15 @@
       "id": 2,
       "move_mode": "dash",
       "type": "path",
+      "x": 9723.35546875,
+      "y": 5793.31103515625
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 3,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 9723.35546875,
       "y": 5793.31103515625
     }

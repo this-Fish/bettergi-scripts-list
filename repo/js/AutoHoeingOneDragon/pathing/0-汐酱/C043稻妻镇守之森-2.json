@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -11,7 +11,7 @@
     "description": "  路线信息：该路线预计用时38秒，包含以下怪物：2只火箭丘丘人、1只雷斧丘丘暴徒、2只雷丘丘萨满。",
     "enable_monster_loot_split": false,
     "hash_res": "58290120",
-    "last_modified_time": 1774338015028,
+    "last_modified_time": 1774348214913,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "C043稻妻镇守之森-2",
@@ -40,7 +40,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "attack(0.3);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;爱可菲 e;菈乌玛 e;",
+      "action_params": "attack(0.3);茜特菈莉 e;伊涅芙 e;",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
@@ -53,6 +53,15 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
+      "x": -4391.32,
+      "y": -2820.65
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": -4391.32,
       "y": -2820.65
     }

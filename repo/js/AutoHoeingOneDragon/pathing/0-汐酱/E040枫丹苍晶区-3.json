@@ -66,6 +66,15 @@
       "y": 2346.44
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 4896.91,
+      "y": 2346.44
+    },
+    {
       "action": "",
       "action_params": "",
       "id": 6,
@@ -116,6 +125,15 @@
       "id": 11,
       "move_mode": "walk",
       "type": "path",
+      "x": 4976.75,
+      "y": 2402.75
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 11,
+      "move_mode": "walk",
+      "type": "orientation",
       "x": 4976.75,
       "y": 2402.75
     }

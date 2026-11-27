@@ -9,7 +9,7 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时68秒，包含以下怪物：1只遗迹重机。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1773245443426,
+    "last_modified_time": 1778923028273,
     "map_match_method": "",
     "map_name": "Teyvat",
     "name": "D014【沙暴】须弥沙漠巨人峡谷西北",
@@ -40,8 +40,17 @@
     },
     {
       "action": "combat_script",
-      "action_params": "w(0.5),attack(0.2),wait(1),s(1),dash,wait(0.7),keypress(f),wait(0.2),keypress(f),wait(5.5)",
+      "action_params": "keypress(x);茜特菈莉 e;",
       "id": 3,
+      "move_mode": "walk",
+      "type": "orientation",
+      "x": 3069,
+      "y": -673.0144805314794
+    },
+    {
+      "action": "combat_script",
+      "action_params": "w(0.5),attack(0.2),wait(1),s(1),dash,wait(0.7),keypress(f),wait(0.2),keypress(f),wait(5.5)",
+      "id": 4,
       "move_mode": "walk",
       "type": "orientation",
       "x": 3069,
@@ -50,25 +59,25 @@
     {
       "action": "",
       "action_params": "",
-      "id": 3,
+      "id": 5,
       "move_mode": "walk",
       "type": "teleport",
       "x": 5485.2216796875,
       "y": -1240.50732421875
     },
     {
-      "action": "log_output",
-      "action_params": "此地有沙暴必摔死1次,无法解决",
-      "id": 4,
+      "action": "combat_script",
+      "action_params": "wait(0.5),w(0.1)",
+      "id": 6,
       "move_mode": "fly",
       "type": "orientation",
       "x": 5473.3095703125,
       "y": -1220.8349609375
     },
     {
-      "action": "",
-      "action_params": "",
-      "id": 5,
+      "action": "combat_script",
+      "action_params": "wait(0.25);茜特菈莉 e;莱依拉 e;伊涅芙 e;",
+      "id": 7,
       "move_mode": "fly",
       "type": "path",
       "x": 5473.3095703125,
@@ -77,9 +86,18 @@
     {
       "action": "fight",
       "action_params": "",
-      "id": 6,
+      "id": 8,
       "move_mode": "dash",
       "type": "path",
+      "x": 5498.4580078125,
+      "y": -1095.15966796875
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(5.997)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 5498.4580078125,
       "y": -1095.15966796875
     }

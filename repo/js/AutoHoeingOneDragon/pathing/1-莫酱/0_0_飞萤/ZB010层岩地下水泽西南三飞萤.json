@@ -1,0 +1,96 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时45秒，包含以下怪物：3只水萤。",
+    "enable_monster_loot_split": false,
+    "hash_res": "53430333",
+    "last_modified_time": 1794299725543,
+    "map_match_method": "",
+    "map_name": "TheChasm",
+    "name": "ZB010层岩地下水泽西南三飞萤",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 659.6537,
+      "y": 704.73
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 667.9954,
+      "y": 705.8182
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.15)",
+      "id": 3,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 677.1844,
+      "y": 691.1381
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 4,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 667.2301,
+      "y": 693.3182
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 5,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 658.8429,
+      "y": 698.0249
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 6,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": 652.8031,
+      "y": 718.1027
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1);keypress(T)",
+      "id": 7,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 652.8031,
+      "y": 718.1027
+    }
+  ]
+}

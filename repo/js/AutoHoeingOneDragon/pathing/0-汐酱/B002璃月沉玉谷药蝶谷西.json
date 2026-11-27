@@ -1,4 +1,4 @@
-{
+﻿{
   "info": {
     "author": "汐",
     "authors": [
@@ -31,7 +31,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;伊涅芙 e;",
+      "action_params": "keypress(x);芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;伊涅芙 e;",
       "id": 2,
       "move_mode": "run",
       "type": "orientation",
@@ -40,7 +40,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;爱可菲 e;moveby(0,-2000)",
+      "action_params": "keypress(x);钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;moveby(0,-2000)",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
@@ -51,20 +51,19 @@
       "action": "combat_script",
       "action_params": "keypress(t),wait(0.2),keypress(t),wait(0.2),keypress(t),click(middle),wait(2.3),keydown(VK_SPACE),wait(0.8),keyup(VK_SPACE),attack(1);哥伦比娅 e,wait(0.15),keypress(e);",
       "id": 4,
-      "locked": false,
       "move_mode": "walk",
       "type": "orientation",
       "x": 1917.5615234375,
-      "y": 1691
+      "y": 1691.38671875
     },
     {
-      "action": "fight",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": "keypress(x);茜特菈莉 e,attack(0.01),keypress(e);伊涅芙 e,attack(0.01),keypress(e);芙宁娜 e;爱可菲 e;莉奈娅 e;枫原万叶 e(hold),wait(0.3),attack,click(middle), wait(0.8);",
       "id": 5,
-      "move_mode": "walk",
-      "type": "path",
-      "x": 1917.5615234375,
-      "y": 1691
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 1928.8896484375,
+      "y": 1661.55078125
     },
     {
       "action": "fight",
@@ -72,22 +71,13 @@
       "id": 6,
       "move_mode": "dash",
       "type": "path",
-      "x": 1934.9970703125,
-      "y": 1665.6630859375
-    },
-    {
-      "action": "fight",
-      "action_params": "",
-      "id": 7,
-      "move_mode": "dash",
-      "type": "path",
       "x": 1928.8896484375,
       "y": 1661.55078125
     },
     {
       "action": "combat_script",
-      "action_params": "wait(0.2)",
-      "id": 8,
+      "action_params": "wait(0.997)",
+      "id": 7,
       "move_mode": "run",
       "type": "orientation",
       "x": 1928.8896484375,

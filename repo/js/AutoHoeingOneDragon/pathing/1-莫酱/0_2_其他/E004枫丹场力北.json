@@ -1,0 +1,285 @@
+{
+  "info": {
+    "author": "mno",
+    "authors": [
+      {
+        "links": "https://github.com/Bedrockx",
+        "name": "mno"
+      },
+      {
+        "links": "",
+        "name": "汐"
+      }
+    ],
+    "bgi_version": "0.45.0",
+    "description": "  路线信息：该路线预计用时187秒，包含以下怪物：1只机关·侦察记录型、2只机关·区域警戒型、1只攻坚特化型机关、1只盗宝团·斥候、1只盗宝团·水之药剂师、1只盗宝团·神射手、2只盗宝团·海上男儿、1只膨膨兽、2只重甲蟹·红、1只坚盾重甲蟹、1只泡泡雄海马、1只压制特化型机关。",
+    "enable_monster_loot_split": false,
+    "hash_res": "59916069",
+    "last_modified_time": 1785994335743,
+    "map_match_method": "",
+    "map_name": "Teyvat",
+    "name": "E004枫丹场力北",
+    "tags": [],
+    "type": "collect",
+    "version": "1.0"
+  },
+  "positions": [
+    {
+      "action": "",
+      "action_params": "",
+      "id": 1,
+      "locked": false,
+      "move_mode": "walk",
+      "type": "teleport",
+      "x": 4143.89,
+      "y": 4423.57
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 2,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4155.9023,
+      "y": 4429.2139
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 3,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4179.916,
+      "y": 4422.668
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3)",
+      "id": 4,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 4188.7051,
+      "y": 4419.1006
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 5,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4210.8174,
+      "y": 4413.7031
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 6,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4210.8174,
+      "y": 4413.7031
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 7,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4270.9199,
+      "y": 4434.7666
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4290.8701,
+      "y": 4424.311
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 9,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4294.7051,
+      "y": 4392.2041
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 10,
+      "move_mode": "jump",
+      "type": "path",
+      "x": 4294.7051,
+      "y": 4392.2041
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 11,
+      "locked": false,
+      "move_mode": "run",
+      "type": "path",
+      "x": 4299.6816,
+      "y": 4377.1675
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 12,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4350.8809,
+      "y": 4353.9048
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;哥伦比娅 e;",
+      "id": 13,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4379.3613,
+      "y": 4368.1416
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 14,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4383.8232,
+      "y": 4346.8672
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 15,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4397.7178,
+      "y": 4340.8887
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 16,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4397.7178,
+      "y": 4340.8887
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 17,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4408.3916,
+      "y": 4314.4365
+    },
+    {
+      "action": "stop_flying",
+      "action_params": "",
+      "id": 18,
+      "locked": false,
+      "move_mode": "fly",
+      "type": "path",
+      "x": 4426.5029,
+      "y": 4304.4175
+    },
+    {
+      "action": "combat_script",
+      "action_params": "attack(0.3);伊涅芙 e;芙宁娜 e;爱可菲 e;莉奈娅 e;哥伦比娅 e;wait(5)",
+      "id": 19,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4435.1504,
+      "y": 4316.1206
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 20,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4457.1113,
+      "y": 4335.9097
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 21,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4479.3154,
+      "y": 4383.0425
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 22,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4479.3154,
+      "y": 4383.0425
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 23,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4473.0273,
+      "y": 4391.7578
+    },
+    {
+      "action": "",
+      "action_params": "",
+      "id": 24,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4393.1836,
+      "y": 4442.0107
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 25,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "path",
+      "x": 4420.6396,
+      "y": 4437.2134
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(1)",
+      "id": 26,
+      "locked": false,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 4420.6396,
+      "y": 4437.2134
+    }
+  ]
+}

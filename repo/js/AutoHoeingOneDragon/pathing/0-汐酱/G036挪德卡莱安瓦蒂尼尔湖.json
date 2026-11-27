@@ -9,8 +9,8 @@
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时63秒，包含以下怪物：1只蕴光凛狼。",
     "enable_monster_loot_split": false,
-    "last_modified_time": 1776789614316,
-    "map_match_method": "SIFT",
+    "last_modified_time": 1792349769890,
+    "map_match_method": "",
     "map_name": "Teyvat",
     "name": "G036挪德卡莱安瓦蒂尼尔湖",
     "tags": [],
@@ -24,8 +24,8 @@
       "id": 1,
       "move_mode": "walk",
       "type": "teleport",
-      "x": 9541.4384765625,
-      "y": 5864.04296875
+      "x": 9541.4385,
+      "y": 5864.043
     },
     {
       "action": "",
@@ -33,18 +33,17 @@
       "id": 2,
       "move_mode": "dash",
       "type": "path",
-      "x": 9572.869140625,
-      "y": 5918.38330078125
+      "x": 9572.8691,
+      "y": 5918.3833
     },
     {
       "action": "fight",
       "action_params": "",
       "id": 3,
-      "locked": false,
       "move_mode": "dash",
       "type": "path",
-      "x": 9548.38671875,
-      "y": 6013.779296875
+      "x": 9548.3867,
+      "y": 6013.7793
     },
     {
       "action": "fight",
@@ -52,8 +51,17 @@
       "id": 4,
       "move_mode": "dash",
       "type": "path",
-      "x": 9548.38671875,
-      "y": 6013.779296875
+      "x": 9548.3867,
+      "y": 6013.7793
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 9548.3867,
+      "y": 6013.7793
     }
   ]
 }

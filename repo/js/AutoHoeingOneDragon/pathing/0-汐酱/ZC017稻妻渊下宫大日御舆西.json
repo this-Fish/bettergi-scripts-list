@@ -48,7 +48,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "attack(0.3),wait(3)",
+      "action_params": "attack(0.3),wait(2.8)",
       "id": 4,
       "move_mode": "dash",
       "type": "path",
@@ -65,6 +65,15 @@
       "y": 298.322265625
     },
     {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 5,
+      "move_mode": "dash",
+      "type": "orientation",
+      "x": 389.6138916015625,
+      "y": 298.322265625
+    },
+    {
       "action": "",
       "action_params": "",
       "id": 6,
@@ -74,11 +83,29 @@
       "y": 107.244384765625
     },
     {
-      "action": "fight",
-      "action_params": "",
+      "action": "combat_script",
+      "action_params": ";钟离 a(0.1),e(hold);茜特菈莉 e;莱依拉 e;伊涅芙 e;",
       "id": 7,
       "move_mode": "dash",
+      "type": "orientation",
+      "x": 362.1250079001659,
+      "y": 149.49890862663074
+    },
+    {
+      "action": "fight",
+      "action_params": "",
+      "id": 8,
+      "move_mode": "dash",
       "type": "path",
+      "x": 362.1250079001659,
+      "y": 149.49890862663074
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.998)",
+      "id": 9,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 362.1250079001659,
       "y": 149.49890862663074
     }

@@ -9,8 +9,8 @@
     ],
     "bgi_version": "0.45.0",
     "description": "  路线信息：该路线预计用时105秒，包含以下怪物：2只狂风之核、1只岩龙蜥。",
-    "hash_res": "06786534",
     "enable_monster_loot_split": false,
+    "hash_res": "06786534",
     "last_modified_time": 1763014166007,
     "map_match_method": "",
     "map_name": "Teyvat",
@@ -40,7 +40,7 @@
     },
     {
       "action": "combat_script",
-      "action_params": "keypress(x);芙宁娜 e;爱可菲 e;伊涅芙 e;",
+      "action_params": "keypress(x);芙宁娜 e;玛薇卡 e;爱可菲 e;莉奈娅 e;伊涅芙 e;",
       "id": 3,
       "move_mode": "dash",
       "type": "path",
@@ -125,6 +125,15 @@
       "id": 12,
       "move_mode": "dash",
       "type": "path",
+      "x": 1439.76,
+      "y": 1150.53
+    },
+    {
+      "action": "combat_script",
+      "action_params": "wait(0.997)",
+      "id": 13,
+      "move_mode": "dash",
+      "type": "orientation",
       "x": 1439.76,
       "y": 1150.53
     }
